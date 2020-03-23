@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  <body>
+    <header>
+      <div class="main">
+        <div class="logo">
+          <img src="logo.png">
+        </div>
+      </div>
+      <div class="title">
+        <h1>Chiliometra in Patra</h1>
+      </div>
+    </header>
+
+    <div class="container">
+      <a href="#" class="button" id="button">Login</a>
+      <a href="#" class="button" id="button1">Sign up</a>
+    </div>
+
+    <div class="popup">
+      <div class="popup-content">
+        <img src="close.png" class="close">
+        <div class="user">
+          <img src="user.jpg" alt="User">
+        </div>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="password">
+
+        <a href="#" class="button">Login</a>
+      </div>
+    </div>
+
+    <div class="popup1">
+      <div class="popup-content">
+        <img src="close.png" class="close1">
+        <div class="user">
+          <img src="user.jpg" alt="User">
+        </div>
+        <input type="text" placeholder="Username">
+        <input type="email" placeholder="email">
+        <input type="password" placeholder="password">
+
+
+        <a href="#" class="button1">Sign up</a>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+
+    document.getElementById("button").addEventListener("click", function(){
+       document.querySelector(".popup").style.display = "flex";
+     })
+    document.querySelector(".close").addEventListener("click", function(){
+      document.querySelector(".popup").style.display = "none";
+    })
+    document.getElementById("button1").addEventListener("click", function(){
+       document.querySelector(".popup1").style.display = "flex";
+     })
+    document.querySelector(".close1").addEventListener("click", function(){
+      document.querySelector(".popup1").style.display = "none";
+    })
+
+    </script>
+  </body>
+</html>

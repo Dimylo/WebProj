@@ -1,0 +1,946 @@
+{
+"locations" : [ {
+    "timestampMs" : "1470420945250",
+    "latitudeE7" : 378946983,
+    "longitudeE7" : 237214554,
+    "accuracy" : 36,
+    "activity" : [ {
+      "timestampMs" : "1470420945276",
+      "activity" : [ {
+        "type" : "IN_VEHICLE",
+        "confidence" : 97
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 3
+      } ]
+    }, {
+      "timestampMs" : "1470329542479",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    } ]
+  }, {
+    "timestampMs" : "1470420974000",
+    "latitudeE7" : 378957774,
+    "longitudeE7" : 237210906,
+    "accuracy" : 8,
+    "activity" : [ {
+      "timestampMs" : "1470420973475",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    } ]
+  }, {
+    "timestampMs" : "1470421236999",
+    "latitudeE7" : 379109081,
+    "longitudeE7" : 237112460,
+    "accuracy" : 8,
+    "activity" : [ {
+      "timestampMs" : "1470462992132",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 56
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 27
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 13
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 4
+      }, {
+        "type" : "WALKING",
+        "confidence" : 4
+      } ]
+    }, {
+      "timestampMs" : "1470462858130",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470462724127",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470462595218",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470462466308",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 73
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 27
+      } ]
+    }, {
+      "timestampMs" : "1470462333380",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470462200451",
+      "activity" : [ {
+        "type" : "ON_FOOT",
+        "confidence" : 58
+      }, {
+        "type" : "WALKING",
+        "confidence" : 56
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 15
+      }, {
+        "type" : "STILL",
+        "confidence" : 13
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 8
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 6
+      }, {
+        "type" : "RUNNING",
+        "confidence" : 2
+      } ]
+    }, {
+      "timestampMs" : "1470462151056",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470462101661",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 66
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 35
+      } ]
+    }, {
+      "timestampMs" : "1470456720658",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470456481708",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470456218181",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470456089352",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470455960522",
+      "activity" : [ {
+        "type" : "UNKNOWN",
+        "confidence" : 38
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 29
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 21
+      }, {
+        "type" : "WALKING",
+        "confidence" : 21
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 6
+      }, {
+        "type" : "STILL",
+        "confidence" : 6
+      } ]
+    }, {
+      "timestampMs" : "1470435572122",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 77
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 23
+      } ]
+    }, {
+      "timestampMs" : "1470435296474",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 60
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 26
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 9
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 5
+      }, {
+        "type" : "WALKING",
+        "confidence" : 5
+      } ]
+    }, {
+      "timestampMs" : "1470435191023",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470435085572",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470434829585",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 81
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 17
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 2
+      } ]
+    }, {
+      "timestampMs" : "1470434695682",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470434561779",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 52
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 27
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 19
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 2
+      }, {
+        "type" : "WALKING",
+        "confidence" : 2
+      } ]
+    }, {
+      "timestampMs" : "1470434429597",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470434297414",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 54
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 25
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 20
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 2
+      }, {
+        "type" : "WALKING",
+        "confidence" : 2
+      } ]
+    }, {
+      "timestampMs" : "1470434153498",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470434009582",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470433881614",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470433753645",
+      "activity" : [ {
+        "type" : "UNKNOWN",
+        "confidence" : 43
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 23
+      }, {
+        "type" : "WALKING",
+        "confidence" : 23
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 17
+      }, {
+        "type" : "STILL",
+        "confidence" : 12
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 6
+      } ]
+    }, {
+      "timestampMs" : "1470433474354",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 59
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 20
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 13
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 5
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 3
+      }, {
+        "type" : "WALKING",
+        "confidence" : 3
+      } ]
+    }, {
+      "timestampMs" : "1470433218582",
+      "activity" : [ {
+        "type" : "UNKNOWN",
+        "confidence" : 54
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 28
+      }, {
+        "type" : "STILL",
+        "confidence" : 15
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 2
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 2
+      }, {
+        "type" : "WALKING",
+        "confidence" : 2
+      } ]
+    }, {
+      "timestampMs" : "1470433080566",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470432942550",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 61
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 20
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 15
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 3
+      }, {
+        "type" : "WALKING",
+        "confidence" : 3
+      } ]
+    }, {
+      "timestampMs" : "1470432685117",
+      "activity" : [ {
+        "type" : "ON_FOOT",
+        "confidence" : 27
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 25
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 23
+      }, {
+        "type" : "WALKING",
+        "confidence" : 23
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 14
+      }, {
+        "type" : "STILL",
+        "confidence" : 12
+      }, {
+        "type" : "RUNNING",
+        "confidence" : 4
+      } ]
+    }, {
+      "timestampMs" : "1470432554670",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470432424222",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470432282197",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470432140172",
+      "activity" : [ {
+        "type" : "UNKNOWN",
+        "confidence" : 43
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 23
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 14
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 14
+      }, {
+        "type" : "WALKING",
+        "confidence" : 14
+      }, {
+        "type" : "STILL",
+        "confidence" : 8
+      } ]
+    }, {
+      "timestampMs" : "1470432007492",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470431874811",
+      "activity" : [ {
+        "type" : "ON_FOOT",
+        "confidence" : 80
+      }, {
+        "type" : "WALKING",
+        "confidence" : 80
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 10
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 8
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 3
+      } ]
+    }, {
+      "timestampMs" : "1470424534688",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470424278079",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470424149811",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470424021542",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470423883532",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470423745521",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 58
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 27
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 14
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 2
+      }, {
+        "type" : "WALKING",
+        "confidence" : 2
+      } ]
+    }, {
+      "timestampMs" : "1470423602777",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470423460032",
+      "activity" : [ {
+        "type" : "UNKNOWN",
+        "confidence" : 75
+      }, {
+        "type" : "STILL",
+        "confidence" : 10
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 6
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 6
+      }, {
+        "type" : "WALKING",
+        "confidence" : 6
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 4
+      } ]
+    }, {
+      "timestampMs" : "1470423326593",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470423193153",
+      "activity" : [ {
+        "type" : "ON_FOOT",
+        "confidence" : 77
+      }, {
+        "type" : "WALKING",
+        "confidence" : 67
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 10
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 10
+      }, {
+        "type" : "RUNNING",
+        "confidence" : 10
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 3
+      } ]
+    }, {
+      "timestampMs" : "1470423184175",
+      "activity" : [ {
+        "type" : "EXITING_VEHICLE",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470423179698",
+      "activity" : [ {
+        "type" : "UNKNOWN",
+        "confidence" : 31
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 23
+      }, {
+        "type" : "WALKING",
+        "confidence" : 23
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 19
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 17
+      }, {
+        "type" : "STILL",
+        "confidence" : 10
+      } ]
+    }, {
+      "timestampMs" : "1470423166714",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470423153729",
+      "activity" : [ {
+        "type" : "IN_VEHICLE",
+        "confidence" : 51
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 32
+      }, {
+        "type" : "STILL",
+        "confidence" : 11
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 5
+      }, {
+        "type" : "WALKING",
+        "confidence" : 5
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 2
+      } ]
+    }, {
+      "timestampMs" : "1470423151350",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470423134388",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470423115046",
+      "activity" : [ {
+        "type" : "UNKNOWN",
+        "confidence" : 40
+      }, {
+        "type" : "STILL",
+        "confidence" : 27
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 23
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 8
+      }, {
+        "type" : "WALKING",
+        "confidence" : 6
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 2
+      }, {
+        "type" : "RUNNING",
+        "confidence" : 2
+      } ]
+    }, {
+      "timestampMs" : "1470423084201",
+      "activity" : [ {
+        "type" : "UNKNOWN",
+        "confidence" : 54
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 23
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 16
+      }, {
+        "type" : "STILL",
+        "confidence" : 8
+      } ]
+    }, {
+      "timestampMs" : "1470423069145",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470423054089",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 92
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 8
+      } ]
+    }, {
+      "timestampMs" : "1470423032568",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 42
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 28
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 17
+      }, {
+        "type" : "WALKING",
+        "confidence" : 16
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 12
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 2
+      }, {
+        "type" : "RUNNING",
+        "confidence" : 2
+      } ]
+    }, {
+      "timestampMs" : "1470422998026",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470422968133",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470422903697",
+      "activity" : [ {
+        "type" : "IN_VEHICLE",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470422663692",
+      "activity" : [ {
+        "type" : "IN_VEHICLE",
+        "confidence" : 66
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 17
+      }, {
+        "type" : "STILL",
+        "confidence" : 9
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 5
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 3
+      }, {
+        "type" : "WALKING",
+        "confidence" : 3
+      } ]
+    }, {
+      "timestampMs" : "1470422623528",
+      "activity" : [ {
+        "type" : "IN_VEHICLE",
+        "confidence" : 32
+      }, {
+        "type" : "STILL",
+        "confidence" : 32
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 23
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 6
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 6
+      }, {
+        "type" : "WALKING",
+        "confidence" : 5
+      }, {
+        "type" : "RUNNING",
+        "confidence" : 2
+      } ]
+    }, {
+      "timestampMs" : "1470422590547",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470422585025",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470422557565",
+      "activity" : [ {
+        "type" : "IN_VEHICLE",
+        "confidence" : 95
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 5
+      } ]
+    }, {
+      "timestampMs" : "1470422535523",
+      "activity" : [ {
+        "type" : "IN_VEHICLE",
+        "confidence" : 31
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 29
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 21
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 17
+      }, {
+        "type" : "WALKING",
+        "confidence" : 16
+      }, {
+        "type" : "RUNNING",
+        "confidence" : 6
+      }, {
+        "type" : "STILL",
+        "confidence" : 2
+      } ]
+    }, {
+      "timestampMs" : "1470422510029",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470422480653",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470422425782",
+      "activity" : [ {
+        "type" : "IN_VEHICLE",
+        "confidence" : 85
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 8
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 8
+      }, {
+        "type" : "RUNNING",
+        "confidence" : 8
+      } ]
+    }, {
+      "timestampMs" : "1470422186897",
+      "activity" : [ {
+        "type" : "IN_VEHICLE",
+        "confidence" : 60
+      }, {
+        "type" : "ON_FOOT",
+        "confidence" : 14
+      }, {
+        "type" : "WALKING",
+        "confidence" : 14
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 11
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 11
+      }, {
+        "type" : "STILL",
+        "confidence" : 5
+      } ]
+    }, {
+      "timestampMs" : "1470422153138",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470421942701",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 82
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 13
+      }, {
+        "type" : "ON_BICYCLE",
+        "confidence" : 3
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 3
+      } ]
+    }, {
+      "timestampMs" : "1470421686584",
+      "activity" : [ {
+        "type" : "IN_VEHICLE",
+        "confidence" : 48
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 34
+      }, {
+        "type" : "STILL",
+        "confidence" : 17
+      } ]
+    }, {
+      "timestampMs" : "1470421540061",
+      "activity" : [ {
+        "type" : "STILL",
+        "confidence" : 48
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 29
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 23
+      } ]
+    }, {
+      "timestampMs" : "1470421395026",
+      "activity" : [ {
+        "type" : "IN_VEHICLE",
+        "confidence" : 56
+      }, {
+        "type" : "UNKNOWN",
+        "confidence" : 39
+      }, {
+        "type" : "STILL",
+        "confidence" : 6
+      } ]
+    }, {
+      "timestampMs" : "1470421316338",
+      "activity" : [ {
+        "type" : "TILTING",
+        "confidence" : 100
+      } ]
+    }, {
+      "timestampMs" : "1470421237650",
+      "activity" : [ {
+        "type" : "UNKNOWN",
+        "confidence" : 54
+      }, {
+        "type" : "IN_VEHICLE",
+        "confidence" : 35
+      }, {
+        "type" : "STILL",
+        "confidence" : 12
+      } ]
+    } ]
+  }
+]
+}
