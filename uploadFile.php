@@ -9,46 +9,48 @@
 
   $target_dir = "uploads/";
   $filename = $target_dir.basename($_FILES["fileToUpload"]["name"]);
-  $uploadOk = 1;
   $fileType = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
 
+
   if ($fileType != "json") {
-    echo "RE FYGE RE MLKA APO DW RE BRO";
-    $uploadOk = 0;
+    die("This is not a JSON file. Upload Failed. <br>");
   } else {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $filename)) {
-        echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
+        echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded. <br>";
     } else {
         echo "Sorry, there was an error uploading your file.";
     }
+    /////////////////////////////////INITIALIZATIONS/////////////////////////////////////////////////
+    set_time_limit(0);
+    ini_set('memory_limit', '-1');
+    //////////////////////////////////////////////////////////////////////////////////////////////////
 
-    $data = file_get_contents($filename);
-    $array = json_decode($data, true);
+    $array = json_decode(file_get_contents($filename), true);
 
     $array = $array['locations'];
-
-    $id = 1;      //represemts the ID of location values(loc_id)
-
     foreach($array as $row) {
-      $sql = "INSERT INTO usr_locations(loc_id, timestamps, latitudeE7, longtitudeE7, accuracy)
-      VALUES('".$id."','".$row["timestampMs"]."','".$row["latitudeE7"]."','".$row["longitudeE7"]."','".$row["accuracy"]."')";
-      if(!pg_query($conn, $sql)) {
-        echo "Error inserting values: " . pg_error($conn);
-      }
+      if(isset($row["activity"])) {
+        if($row["accuracy"] < 5000 && ) {
+          $sql = "INSERT INTO usr_locations(timestamps, latitudeE7, longtitudeE7, accuracy)
+          VALUES('".$row["timestampMs"]."','".$row["latitudeE7"]."','".$row["longitudeE7"]."','".$row["accuracy"]."')";
+          if(!pg_query($conn, $sql)) {
+            echo "Error inserting values: " . pg_error($conn);
+          }
+          $sql = "SELECT currval(pg_get_serial_sequence('usr_locations', 'loc_id'))";
+          $x = pg_query($conn, $sql);
+          $forkey = pg_fetch_row($x)[0]; //stores the last id of table usr_locations
 
-      $activity = $row['activity'];
-      foreach($activity as $act) {
-        $attrs = $act['activity'];
+          foreach($row['activity'] as $act) {
 
-        $type = $act['activity'][0]['type'];
-        $sql = "INSERT INTO loc_activities(act_timestamps, act_type, act_id)
-        VALUES('".$act["timestampMs"]."','".$type."','".$id."')";
-        if(!pg_query($conn, $sql)) {
-          echo "Error inserting values: " . pg_error($conn);
+            $type = $act['activity'][0]['type'];
+            $sql = "INSERT INTO loc_activities(act_timestamps, act_type, floc_id)
+            VALUES('".$act["timestampMs"]."','".$type."','".$forkey."')";
+            if(!pg_query($conn, $sql)) {
+              echo "Error inserting values: " . pg_error($conn);
+            }
+          }
         }
       }
-
-      $id++;
     }
   }
 
