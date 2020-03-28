@@ -45,7 +45,7 @@
 
   $sql = "CREATE TABLE usr_locations (
           -- usr_id integer REFERENCES users(id),
-          loc_id integer UNIQUE NOT NULL,
+          loc_id bigserial UNIQUE NOT NULL,
           timestamps bigint NOT NULL,
           latitudeE7 integer,
           longtitudeE7 integer,
@@ -59,10 +59,11 @@
   }
 
   $sql = "CREATE TABLE loc_activities (
-          act_id integer REFERENCES usr_locations(loc_id),
+          act_id bigserial UNIQUE NOT NULL,
+          floc_id bigint REFERENCES usr_locations(loc_id),
           act_timestamps bigint NOT NULL,
           act_type VARCHAR,
-          PRIMARY KEY(act_id, act_timestamps)
+          PRIMARY KEY(act_id, floc_id)
         )";
   if (pg_query($conn, $sql)) {
     echo "Table created successfully <br>";
