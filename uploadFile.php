@@ -30,7 +30,7 @@
     $array = $array['locations'];
     foreach($array as $row) {
       if(isset($row["activity"])) {
-        if($row["accuracy"] < 5000 && ) {
+        if($row["accuracy"] < 5000 && dist10kmRadius($row["latitudeE7"], $row["longitudeE7"])) {
           $sql = "INSERT INTO usr_locations(timestamps, latitudeE7, longtitudeE7, accuracy)
           VALUES('".$row["timestampMs"]."','".$row["latitudeE7"]."','".$row["longitudeE7"]."','".$row["accuracy"]."')";
           if(!pg_query($conn, $sql)) {
@@ -54,4 +54,24 @@
     }
   }
 
+  function dist10kmRadius($latitude, $longitude) {
+    $distance = 10;                 //The radius of our circle
+    $radius = 6371;                 //Earth's radius
+    $lat = 38.230462;
+    $lng = 21.753150;
+
+    $lat1 = $latitude * 1e-7;
+    $lng1 = $longitude * 1e-7;
+    $dLon = deg2rad($lng1 - $lng);
+    $resDistance = acos(sin(deg2rad($lat)) * sin(deg2rad($lat1)) + cos(deg2rad($lat)) * cos(deg2rad($lat1)) * cos($dLon));
+
+    $resDistance = $radius * $resDistance;
+    if ( $resDistance > $distance ) {
+      echo "eisai makria bro<br>";
+      return 0;
+    } else {
+      echo "koble <br>";
+      return 1;
+    }
+  }
 ?>
