@@ -44,13 +44,13 @@
   }
 
   $sql = "CREATE TABLE usr_locations (
-          -- usr_id integer REFERENCES users(id),
+          usr_id integer REFERENCES users(id),
           loc_id bigserial UNIQUE NOT NULL,
           timestamps bigint NOT NULL,
           latitudeE7 integer,
           longtitudeE7 integer,
           accuracy integer,
-          PRIMARY KEY(loc_id)
+          PRIMARY KEY(loc_id, usr_id)
         )";
   if (pg_query($conn, $sql)) {
     echo "Table created successfully <br>";
