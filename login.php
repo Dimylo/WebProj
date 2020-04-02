@@ -1,4 +1,4 @@
-<?php include('file.php') ?>
+<?php include('Sing_in_Login.php') ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -33,7 +33,7 @@
     </div>
 
     <div class="popup">
-      <form action="file.php" method="post">
+      <form action="Sing_in_Login.php" method="post">
       <div class="popup-content">
         <img src="close.png" class="close">
         <div class="user">
@@ -49,7 +49,7 @@
       </form>
     </div>
     <div class="popup1">
-      <form action="file.php" method="post">
+      <form action="Sing_in_Login.php" method="post">
       <div class="popup-content">
 
         <img src="close.png" class="close1">
