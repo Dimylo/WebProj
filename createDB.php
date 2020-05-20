@@ -50,7 +50,7 @@
           latitudeE7 integer,
           longtitudeE7 integer,
           accuracy integer,
-		  upDate DATE,
+		  upload_date DATE,
           PRIMARY KEY(loc_id, usr_id)
         )";
   if (pg_query($conn, $sql)) {
