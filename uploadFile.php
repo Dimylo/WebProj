@@ -1,14 +1,16 @@
 <?php
-  $servername = 'localhost';
-  $username = 'postgres';
-  $password = '1234';
-
+	
   // Create connection
   $conn = pg_connect('host=localhost dbname=mydb port=5432 user=postgres password=root');
   // Check connection
+  if (!$conn) {
+    die("Connection failed: " . pg_connect_error());
+  }
+  
+  session_start();
 
-  $target_dir = "uploads/";
-  $filename = $target_dir.basename($_FILES["fileToUpload"]["name"]);
+  //$target_dir = "uploads/";
+  $filename = basename($_FILES["fileToUpload"]["name"]);
   $fileType = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
 
 
@@ -20,6 +22,7 @@
     } else {
         echo "Sorry, there was an error uploading your file.";
     }
+
     /////////////////////////////////INITIALIZATIONS/////////////////////////////////////////////////
     set_time_limit(0);
     ini_set('memory_limit', '-1');
@@ -28,11 +31,13 @@
     $array = json_decode(file_get_contents($filename), true);
 
     $array = $array['locations'];
+	$id = $_SESSION['id'];
+	
     foreach($array as $row) {
       if(isset($row["activity"])) {
         if($row["accuracy"] < 5000 && dist10kmRadius($row["latitudeE7"], $row["longitudeE7"])) {
-          $sql = "INSERT INTO usr_locations(timestamps, latitudeE7, longtitudeE7, accuracy)
-          VALUES('".$row["timestampMs"]."','".$row["latitudeE7"]."','".$row["longitudeE7"]."','".$row["accuracy"]."')";
+          $sql = "INSERT INTO usr_locations(usr_id, timestamps, latitudeE7, longtitudeE7, accuracy, upload_date)
+          VALUES('".$id"','".$row["timestampMs"]."','".$row["latitudeE7"]."','".$row["longitudeE7"]."','".$row["accuracy"]."','"date('Y-m-d')"')";
           if(!pg_query($conn, $sql)) {
             echo "Error inserting values: " . pg_error($conn);
           }
@@ -53,7 +58,10 @@
       }
     }
   }
+  unlink($filename);
 
+//Synartisi pou ypologizei an oi syntetagmenes toy xristi einai mesa stin aktina twn 10km
+//An einai epistrefei 1, alliws 0
   function dist10kmRadius($latitude, $longitude) {
     $distance = 10;                 //The radius of our circle
     $radius = 6371;                 //Earth's radius
