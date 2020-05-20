@@ -2,7 +2,7 @@
   $servername = 'localhost';
   $username = 'postgres';
   $password = 'root';
-
+  
   // Create connection
   $conn = pg_connect('host='.$servername.' port=5432 user='.$username.' password='.$password);
   // Check connection
@@ -32,10 +32,10 @@
   }
 
   $sql = "CREATE TABLE users (
-          id serial PRIMARY KEY,
+          id VARCHAR PRIMARY KEY,
           username VARCHAR NOT NULL,
           password VARCHAR NOT NULL,
-          email VARCHAR NOT NULL
+          email VARCHAR
         )";
   if (pg_query($conn, $sql)) {
     echo "Table created successfully <br>";
@@ -44,12 +44,13 @@
   }
 
   $sql = "CREATE TABLE usr_locations (
-          usr_id integer REFERENCES users(id),
+          usr_id VARCHAR REFERENCES users(id),
           loc_id bigserial UNIQUE NOT NULL,
           timestamps bigint NOT NULL,
           latitudeE7 integer,
           longtitudeE7 integer,
           accuracy integer,
+		  upDate DATE,
           PRIMARY KEY(loc_id, usr_id)
         )";
   if (pg_query($conn, $sql)) {
