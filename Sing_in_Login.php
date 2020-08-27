@@ -2,7 +2,7 @@
 session_start();
 $email = "";
 $errors = array();
-$db = pg_connect("host=localhost dbname=mydb user=postgres password=1234");
+$db = pg_connect("host=localhost dbname=mydb user=postgres password=root");
 
 
 if (isset($_POST['Signup'])) {

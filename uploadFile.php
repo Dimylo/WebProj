@@ -1,18 +1,16 @@
 <?php
-	
+  session_start();
   // Create connection
   $conn = pg_connect('host=localhost dbname=mydb port=5432 user=postgres password=root');
   // Check connection
   if (!$conn) {
     die("Connection failed: " . pg_connect_error());
   }
-  
-  session_start();
 
+  $id = $_SESSION['id'];
   //$target_dir = "uploads/";
   $filename = basename($_FILES["fileToUpload"]["name"]);
   $fileType = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
-
 
   if ($fileType != "json") {
     die("This is not a JSON file. Upload Failed. <br>");
@@ -31,13 +29,17 @@
     $array = json_decode(file_get_contents($filename), true);
 
     $array = $array['locations'];
-	$id = $_SESSION['id'];
-	
+		$id = $_SESSION['id'];
+    $date = date('Y-m-d');
     foreach($array as $row) {
       if(isset($row["activity"])) {
-        if($row["accuracy"] < 5000 && dist10kmRadius($row["latitudeE7"], $row["longitudeE7"])) {
-          $sql = "INSERT INTO usr_locations(usr_id, timestamps, latitudeE7, longtitudeE7, accuracy, upload_date)
-          VALUES('".$id"','".$row["timestampMs"]."','".$row["latitudeE7"]."','".$row["longitudeE7"]."','".$row["accuracy"]."','"date('Y-m-d')"')";
+        if($row["accuracy"] < 5000 && dist10kmRadius($row["latitudeE7"], $row["longitudeE7"]) && restrictions($row["latitudeE7"], $row["longitudeE7"])) {
+          $row["latitudeE7"]=$row["latitudeE7"]*1e-7;
+          $row["longitudeE7"]=$row["longitudeE7"]*1e-7;
+          $row["timestampMs"]=date('Y-m-d\TH:i:s\Z',$row["timestampMs"]*1e-3);
+
+          $sql = "INSERT INTO usr_locations(usr_id, timestamps, latitudeE7, longtitudeE7, accuracy, date_upload)
+          VALUES('".$id."','".$row["timestampMs"]."','".$row["latitudeE7"]."','".$row["longitudeE7"]."','".$row["accuracy"]."','".$date."')";
           if(!pg_query($conn, $sql)) {
             echo "Error inserting values: " . pg_error($conn);
           }
@@ -46,7 +48,7 @@
           $forkey = pg_fetch_row($x)[0]; //stores the last id of table usr_locations
 
           foreach($row['activity'] as $act) {
-
+            $act["timestampMs"]=date('Y-m-d\TH:i:s\Z',$act["timestampMs"]*1e-3);
             $type = $act['activity'][0]['type'];
             $sql = "INSERT INTO loc_activities(act_timestamps, act_type, floc_id)
             VALUES('".$act["timestampMs"]."','".$type."','".$forkey."')";
@@ -59,6 +61,7 @@
     }
   }
   unlink($filename);
+  header('location: main_user.php');
 
 //Synartisi pou ypologizei an oi syntetagmenes toy xristi einai mesa stin aktina twn 10km
 //An einai epistrefei 1, alliws 0
@@ -78,8 +81,22 @@
       echo "eisai makria bro<br>";
       return 0;
     } else {
-      echo "koble <br>";
       return 1;
     }
+  }
+
+  function restrictions($latitude, $longitude) {
+    $sql = "SELECT north, south, east, west FROM restrictions WHERE usr_id = '$id'";
+    $result = pg_query($conn, $sql);
+    $act = 1;
+    while($restr = pg_fetch_assoc($result)) {
+      if( $latitude < $restr['north'] && $latitude > $restr['south']) {
+        if( $longitude < $restr['east'] && $longitude > $restr['west']) {
+            $act = 0;
+            break;
+        }
+      }
+    }
+    return $act;
   }
 ?>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="mainStyle.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"/>
+	<link rel="stylesheet" href="./src/css/leaflet-shades.css" />
+	<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+	<script src="./dist/leaflet-shades.js"></script>
+
+  </head>
+  <body>
+
+  <div id="mapid"></div>
+
+  <div id="cont">
+    <input type="button" id='save' value="save">
+    <p id="print"></p>
+  </div>
+  <form action="uploadFile.php" method="post" enctype="multipart/form-data">
+      <input type= "file" name="fileToUpload" class="uploads" id="fileToUpload">
+      <input type= "submit" value="Upload file" class="upload"name="submit">
+  </form>
+  <a href="main_user.php" class="btn btn-info btn-lg">
+    <span class="glyphicon glyphicon-log-out"></span> Return to Main
+  </a>
+</body>
+</html>
+
+<script src="mapView.js"></script>
+<script>
+
+</script>

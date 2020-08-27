@@ -1,10 +1,8 @@
 <?php
 session_start();
-
 $conn = pg_connect('host=localhost dbname=mydb port=5432 user=postgres password=root');
-
 $id = $_SESSION['id'];
-$result = pg_query($conn, "select loc_activities.act_type from usr_locations INNER JOIN loc_activities ON loc_activities.floc_id = usr_locations.loc_id where usr_id = '$id'");
+$result = pg_query($conn, "select usr_locations.date_upload  from usr_locations WHERE usr_id= '$id'  ORDER BY date_upload DESC LIMIT 1");
 
 $data = array();
 
