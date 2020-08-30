@@ -42,7 +42,7 @@ $(document).ready(function(){
                $("#divout1").css('color','green').html('<span class="text-success"> *Match </span>');
             }
             if(data=='koka'){
-               window.location="main.php";
+               window.location="madmin.html";
             }
             if(data=='Yparxei hdh'){
                $("#divout1").css('color','green').html('<span class="text-success"> *Yparxei hdh </span>');

@@ -51,11 +51,11 @@ if (isset($_POST['Login_admin'])) {
   	  $_SESSION['username'] = $username;
   	  $_SESSION['success'] = "";
   	  header('location: main_admin.html');
-  	}else {
+  	} else {
       echo"dddd";
   		array_push($errors, "Λανθασμένος συνδιασμός email/password");
   	}
-  }else {
+  } else {
     echo "empty";
   }
 }
@@ -80,12 +80,12 @@ if (isset($_POST['Login_user'])) {
   	  $_SESSION['username'] = $username;
   	  $_SESSION['success'] = "";
   	  header('location: main_user.php');
-  	}else {
+  	} else {
       echo"dddd";
 
   		array_push($errors, "Λανθασμένος συνδιασμός email/password");
   	}
-  }else {
+  } else {
     echo "empty";
   }
 }

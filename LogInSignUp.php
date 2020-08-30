@@ -27,7 +27,6 @@
 
         <ul>
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Service</a></li>
           <li><a href="#">Gallery</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Content</a></li>
@@ -48,7 +47,7 @@
 
     <div class="popup">
 
-    <form id="Login" action="checkLogIn.php" method="post" >
+    <form id="Login" action="checkLogIn.php" method="post">
 
       <div class="popup-content">
         <img src="close.png" class="close">
@@ -81,7 +80,7 @@
         <label for="user">Registration</label>
         <input type="text" id="username1" name ="username1" placeholder="username*"   title="Give a username" required>
         <span id="out"></span>
-        <input type="email" id= "email1" name = "email1" placeholder="email*" title="Give an e-mail address" required >
+        <input type="email" id= "email1" name = "email1" placeholder="email*" title="Give an e-mail address" required>
         <input type="password" id= "password" name = "password" placeholder="password*"
          pattern="(?=.*\d)(?=.*[!@#$%^&*])(?=.*[A-Z]).{8,}"
          title="Must contain at least one number, one special character, and one uppercase letter, and at least 8 or more characters" required>

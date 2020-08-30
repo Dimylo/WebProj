@@ -38,7 +38,7 @@
           $row["longitudeE7"]=$row["longitudeE7"]*1e-7;
           $row["timestampMs"]=date('Y-m-d\TH:i:s\Z',$row["timestampMs"]*1e-3);
 
-          $sql = "INSERT INTO usr_locations(usr_id, timestamps, latitudeE7, longtitudeE7, accuracy, date_upload)
+          $sql = "INSERT INTO usr_locations(usr_id, timestamps, latitudeE7, longitudeE7, accuracy, date_upload)
           VALUES('".$id."','".$row["timestampMs"]."','".$row["latitudeE7"]."','".$row["longitudeE7"]."','".$row["accuracy"]."','".$date."')";
           if(!pg_query($conn, $sql)) {
             echo "Error inserting values: " . pg_error($conn);
@@ -86,7 +86,8 @@
   }
 
   function restrictions($latitude, $longitude) {
-    $sql = "SELECT north, south, east, west FROM restrictions WHERE usr_id = '$id'";
+    global $id, $conn;
+    $sql = "SELECT north, south, east, west FROM restrictions WHERE usr_id = '.$id.'";
     $result = pg_query($conn, $sql);
     $act = 1;
     while($restr = pg_fetch_assoc($result)) {

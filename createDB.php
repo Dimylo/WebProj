@@ -64,7 +64,7 @@
           loc_id bigserial UNIQUE NOT NULL,
           timestamps timestamp NOT NULL,
           latitudeE7 float,
-          longtitudeE7 float,
+          longitudeE7 float,
           accuracy integer,
           date_upload DATE,
           PRIMARY KEY(loc_id, usr_id)
