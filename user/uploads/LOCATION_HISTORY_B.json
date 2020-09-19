@@ -1,0 +1,391 @@
+{
+  "timelineObjects" : [ {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382465268,
+        "longitudeE7" : 217362490,
+        "placeId" : "ChIJyc0zDd1JXhMRdPGSrbTO3-g",
+        "address" : "Κορίνθου 279\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Panagiotounakos Nikolaos",
+        "sourceInfo" : {
+          "deviceTag" : -1244203106
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1549809359321",
+        "endTimestampMs" : "1549809722323"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382464100,
+      "centerLngE7" : 217367350
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382465268,
+        "longitudeE7" : 217362490,
+        "placeId" : "ChIJyc0zDd1JXhMRdPGSrbTO3-g",
+        "address" : "Κορίνθου 279\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Panagiotounakos Nikolaos",
+        "sourceInfo" : {
+          "deviceTag" : -1244203106
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382434636,
+        "longitudeE7" : 217430938,
+        "sourceInfo" : {
+          "deviceTag" : -1244203106
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1549809722323",
+        "endTimestampMs" : "1549814999261"
+      },
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 92.35006412239578
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 4.4945780210917965
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.7104562129213912
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382414207,
+          "lngE7" : 217389812
+        }, {
+          "latE7" : 382428817,
+          "lngE7" : 217381877
+        }, {
+          "latE7" : 382451400,
+          "lngE7" : 217364997
+        }, {
+          "latE7" : 382466163,
+          "lngE7" : 217362174
+        }, {
+          "latE7" : 382432708,
+          "lngE7" : 217432041
+        }, {
+          "latE7" : 382380867,
+          "lngE7" : 217450523
+        }, {
+          "latE7" : 382372627,
+          "lngE7" : 217484436
+        }, {
+          "latE7" : 382365112,
+          "lngE7" : 217456893
+        }, {
+          "latE7" : 382342147,
+          "lngE7" : 217340774
+        }, {
+          "latE7" : 382334289,
+          "lngE7" : 217309951
+        }, {
+          "latE7" : 382343978,
+          "lngE7" : 217298831
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 382428589,
+          "lngE7" : 217381725,
+          "timestampMs" : "1549808875512",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 382451096,
+          "lngE7" : 217364578,
+          "timestampMs" : "1549809238431",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 382465935,
+          "lngE7" : 217361965,
+          "timestampMs" : "1549809480411",
+          "accuracyMeters" : 16
+        }, {
+          "latE7" : 382434464,
+          "lngE7" : 217431240,
+          "timestampMs" : "1549812025000",
+          "accuracyMeters" : 10
+        }, {
+          "latE7" : 382379875,
+          "lngE7" : 217449455,
+          "timestampMs" : "1549812733000",
+          "accuracyMeters" : 15
+        }, {
+          "latE7" : 382374458,
+          "lngE7" : 217483501,
+          "timestampMs" : "1549813106855",
+          "accuracyMeters" : 50
+        }, {
+          "latE7" : 382364769,
+          "lngE7" : 217456970,
+          "timestampMs" : "1549813470846",
+          "accuracyMeters" : 17
+        }, {
+          "latE7" : 382342377,
+          "lngE7" : 217340603,
+          "timestampMs" : "1549814514239",
+          "accuracyMeters" : 23
+        }, {
+          "latE7" : 382334633,
+          "lngE7" : 217309818,
+          "timestampMs" : "1549814755841",
+          "accuracyMeters" : 31
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382434636,
+        "longitudeE7" : 217430938,
+        "sourceInfo" : {
+          "deviceTag" : -1244203106
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382455917,
+        "longitudeE7" : 217361115,
+        "sourceInfo" : {
+          "deviceTag" : -1244203106
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1549814999261",
+        "endTimestampMs" : "1550244695120"
+      },
+      "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+      "activities" : [ {
+        "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+        "probability" : 0.0
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 382343906,
+          "lngE7" : 217299336,
+          "timestampMs" : "1549814999261",
+          "accuracyMeters" : 17
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382455917,
+        "longitudeE7" : 217361115,
+        "sourceInfo" : {
+          "deviceTag" : -1244203106
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382494679,
+        "longitudeE7" : 217361924,
+        "sourceInfo" : {
+          "deviceTag" : -1244203106
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1550244695120",
+        "endTimestampMs" : "1550245174595"
+      },
+      "distance" : 603,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 96.84366672404401
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 2.0479760249054895
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.3375950685688025
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382456130,
+          "lngE7" : 217360839
+        }, {
+          "latE7" : 382473640,
+          "lngE7" : 217384471
+        }, {
+          "latE7" : 382494964,
+          "lngE7" : 217362270
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 382476192,
+          "lngE7" : 217385286,
+          "timestampMs" : "1550244931686000",
+          "accuracyMeters" : 17
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382488571,
+        "longitudeE7" : 217351444,
+        "placeId" : "ChIJMzEk08JJXhMR7D3cq6msdaU",
+        "address" : "Αγίου Ανδρέου 65\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Bershka",
+        "sourceInfo" : {
+          "deviceTag" : -1244203106
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1550245174595",
+        "endTimestampMs" : "1550245682129"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382489125,
+      "centerLngE7" : 217352237
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382488571,
+        "longitudeE7" : 217351444,
+        "sourceInfo" : {
+          "deviceTag" : -1244203106
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382465268,
+        "longitudeE7" : 217362490,
+        "sourceInfo" : {
+          "deviceTag" : -1244203106
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1550245682129",
+        "endTimestampMs" : "1550245803200"
+      },
+      "distance" : 322,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.7390347141002
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.3436317065925654
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.22437620642589326
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382487831,
+          "lngE7" : 217350502
+        }, {
+          "latE7" : 382465858,
+          "lngE7" : 217362518
+        }, {
+          "latE7" : 382465553,
+          "lngE7" : 217362861
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 382478176,
+          "lngE7" : 217362967,
+          "timestampMs" : "1550245742142000",
+          "accuracyMeters" : 23
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382465268,
+        "longitudeE7" : 217362490,
+        "placeId" : "ChIJyc0zDd1JXhMRdPGSrbTO3-g",
+        "address" : "Κορίνθου 279\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Panagiotounakos Nikolaos",
+        "sourceInfo" : {
+          "deviceTag" : -1244203106
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1550245803200",
+        "endTimestampMs" : "1550246196198"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382467450,
+      "centerLngE7" : 217373387
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382329944,
+        "longitudeE7" : 217448392,
+        "sourceInfo" : {
+          "deviceTag" : -1244203106
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382389685,
+        "longitudeE7" : 217293546,
+        "sourceInfo" : {
+          "deviceTag" : -1244203106
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1551204120187",
+        "endTimestampMs" : "1551276276914"
+      },
+      "distance" : 1506,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 72.13844209937729
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 17.632891157857827
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 6.153433022381075
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382329864,
+          "lngE7" : 217448310
+        }, {
+          "latE7" : 382299003,
+          "lngE7" : 217406673
+        }, {
+          "latE7" : 382389259,
+          "lngE7" : 217296524
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382398071,
+        "longitudeE7" : 217300224,
+        "placeId" : "ChIJrQdSnthJXhMR4rPwfzqncZA",
+        "address" : "Navarinou 13\nPatra 262 22\nHellas",
+        "name" : "Navarinou 13",
+        "sourceInfo" : {
+          "deviceTag" : -1244203106
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1551276276914",
+        "endTimestampMs" : "1551277448610"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382389567,
+      "centerLngE7" : 217293757
+    }
+  } ]
+}

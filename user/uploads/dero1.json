@@ -1,0 +1,11 @@
+[
+	{
+    "timestampMs" : "1421185932832",
+	"activity" : "cycle",
+    "latitudeE7" : "382608847",
+    "longitudeE7" : "217574013",
+    "accuracy" : 93,
+	"type": "moyo",
+	"confidence" : "100"
+  }
+  ]

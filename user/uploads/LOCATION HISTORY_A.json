@@ -1,0 +1,3788 @@
+{
+  "timelineObjects" : [ {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382387095,
+        "longitudeE7" : 217297508
+      },
+      "endLocation" : {
+        "latitudeE7" : 382365210,
+        "longitudeE7" : 217319256
+      },
+      "duration" : {
+        "startTimestampMs" : "1577892784140",
+        "endTimestampMs" : "1577893674361"
+      },
+      "distance" : 308,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 81.26906752586365
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 9.928229451179504
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.3964183181524277
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.959629148244858
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.7757429499179125
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.7680368144065142
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.7152335718274117
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.048028468154370785
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.04796111606992781
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.04646290617529303
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.024656197638250887
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.00847505871206522
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.00845762697281316
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.003258918150095269
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 3.436506176512921E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382387237,
+          "lngE7" : 217296104
+        }, {
+          "latE7" : 382372322,
+          "lngE7" : 217309207
+        }, {
+          "latE7" : 382364501,
+          "lngE7" : 217319526
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382366849,
+        "longitudeE7" : 217318778,
+        "placeId" : "ChIJS3IGKyE2XhMRl9-gkwkryVs",
+        "address" : "Koumanioti 69\nPatra 262 22\nHellas",
+        "name" : "Koumanioti 69",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1577893674361",
+        "endTimestampMs" : "1577895119457"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382365182,
+      "centerLngE7" : 217319309
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382364598,
+        "longitudeE7" : 217320663
+      },
+      "endLocation" : {
+        "latitudeE7" : 382411514,
+        "longitudeE7" : 217356468
+      },
+      "duration" : {
+        "startTimestampMs" : "1577895119457",
+        "endTimestampMs" : "1577895742956"
+      },
+      "distance" : 774,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 77.85086035728455
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 11.424636840820312
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 4.754873365163803
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.7583439126610756
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 1.582578755915165
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.2469124980270863
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.096268743276596
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.1111790887080133
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.05021352553740144
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.03897742717526853
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.032593533978797495
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.03190904390066862
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.01072687009582296
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.009118879825109616
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 8.026809155126102E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382364730,
+          "lngE7" : 217320632
+        }, {
+          "latE7" : 382372474,
+          "lngE7" : 217354164
+        }, {
+          "latE7" : 382372474,
+          "lngE7" : 217354164
+        }, {
+          "latE7" : 382392883,
+          "lngE7" : 217349472
+        }, {
+          "latE7" : 382410316,
+          "lngE7" : 217358760
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382412064,
+        "longitudeE7" : 217352439,
+        "placeId" : "ChIJDdaatoVJXhMRghmU6R5v1ok",
+        "address" : "Πάτρα 262 24\nΕλλάδα",
+        "name" : "Ψηλά Αλώνια",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1577895742956",
+        "endTimestampMs" : "1577896228385"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382420260,
+      "centerLngE7" : 217350840
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382423216,
+        "longitudeE7" : 217343185
+      },
+      "endLocation" : {
+        "latitudeE7" : 382390362,
+        "longitudeE7" : 217296970
+      },
+      "duration" : {
+        "startTimestampMs" : "1577896228385",
+        "endTimestampMs" : "1577896838216"
+      },
+      "distance" : 627,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 80.3497314453125
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 7.448095828294754
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 5.7617537677288055
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 1.8963981419801712
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.6021160408854485
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.4840377494692802
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.8861969225108624
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.32142791897058487
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.12396909296512604
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.038210052298381925
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0323763961205259
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.023505503486376256
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.019015934958588332
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.012495153350755572
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 6.67573567625368E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382423286,
+          "lngE7" : 217343082
+        }, {
+          "latE7" : 382421302,
+          "lngE7" : 217340679
+        }, {
+          "latE7" : 382416229,
+          "lngE7" : 217333545
+        }, {
+          "latE7" : 382419700,
+          "lngE7" : 217313957
+        }, {
+          "latE7" : 382413368,
+          "lngE7" : 217305431
+        }, {
+          "latE7" : 382403945,
+          "lngE7" : 217299823
+        }, {
+          "latE7" : 382390403,
+          "lngE7" : 217296791
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1577896838216",
+        "endTimestampMs" : "1577900688651"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382387704,
+      "centerLngE7" : 217296983
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382392358,
+        "longitudeE7" : 217297659
+      },
+      "endLocation" : {
+        "latitudeE7" : 382470277,
+        "longitudeE7" : 217341253
+      },
+      "duration" : {
+        "startTimestampMs" : "1577900688651",
+        "endTimestampMs" : "1577901579889"
+      },
+      "distance" : 1100,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 81.64931535720825
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 10.446759313344955
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.343458868563175
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.6414100304245949
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 1.2800674885511398
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.2102430686354637
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.1374479159712791
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.10867386590689421
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.05630965461023152
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.05228183581493795
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.03464356414042413
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.018049762002192438
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.01418420288246125
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.00647178094368428
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 6.831846349086845E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382392425,
+          "lngE7" : 217297229
+        }, {
+          "latE7" : 382419700,
+          "lngE7" : 217313957
+        }, {
+          "latE7" : 382430915,
+          "lngE7" : 217316436
+        }, {
+          "latE7" : 382435722,
+          "lngE7" : 217322635
+        }, {
+          "latE7" : 382440757,
+          "lngE7" : 217329025
+        }, {
+          "latE7" : 382448539,
+          "lngE7" : 217339286
+        }, {
+          "latE7" : 382450065,
+          "lngE7" : 217340984
+        }, {
+          "latE7" : 382460708,
+          "lngE7" : 217328147
+        }, {
+          "latE7" : 382460708,
+          "lngE7" : 217328147
+        }, {
+          "latE7" : 382470779,
+          "lngE7" : 217341308
+        }, {
+          "latE7" : 382470550,
+          "lngE7" : 217341594
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382475471,
+        "longitudeE7" : 217348439,
+        "placeId" : "ChIJKdDXId1JXhMRqgOc9Po4S28",
+        "address" : "Ερμού 34\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Eataly",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1577901579889",
+        "endTimestampMs" : "1577904769578"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382474095,
+      "centerLngE7" : 217346041
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382469287,
+        "longitudeE7" : 217340122
+      },
+      "endLocation" : {
+        "latitudeE7" : 382363739,
+        "longitudeE7" : 217316590
+      },
+      "duration" : {
+        "startTimestampMs" : "1577904769578",
+        "endTimestampMs" : "1577906365143"
+      },
+      "distance" : 1768,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 84.7974419593811
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 7.826630026102066
+      }, {
+        "activityType" : "STILL",
+        "probability" : 2.134557068347931
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.9657837226986885
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.1754521168768406
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.9240114130079746
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.8957752957940102
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.09202118963003159
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.07199632236734033
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.05841458332724869
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0344068743288517
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.009250569564756006
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.00888030554051511
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.004290827200748026
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0010926375580311287
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382469825,
+          "lngE7" : 217339458
+        }, {
+          "latE7" : 382459373,
+          "lngE7" : 217326297
+        }, {
+          "latE7" : 382432365,
+          "lngE7" : 217292308
+        }, {
+          "latE7" : 382429389,
+          "lngE7" : 217288646
+        }, {
+          "latE7" : 382409515,
+          "lngE7" : 217278423
+        }, {
+          "latE7" : 382406578,
+          "lngE7" : 217287292
+        }, {
+          "latE7" : 382404670,
+          "lngE7" : 217286987
+        }, {
+          "latE7" : 382393379,
+          "lngE7" : 217284641
+        }, {
+          "latE7" : 382391014,
+          "lngE7" : 217284202
+        }, {
+          "latE7" : 382367858,
+          "lngE7" : 217280082
+        }, {
+          "latE7" : 382363433,
+          "lngE7" : 217279453
+        }, {
+          "latE7" : 382363471,
+          "lngE7" : 217314910
+        }, {
+          "latE7" : 382363815,
+          "lngE7" : 217316551
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382366849,
+        "longitudeE7" : 217318778,
+        "placeId" : "ChIJS3IGKyE2XhMRl9-gkwkryVs",
+        "address" : "Koumanioti 69\nPatra 262 22\nHellas",
+        "name" : "Koumanioti 69",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1577906365143",
+        "endTimestampMs" : "1577906850827"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382366240,
+      "centerLngE7" : 217320960
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382372824,
+        "longitudeE7" : 217327458
+      },
+      "endLocation" : {
+        "latitudeE7" : 382388428,
+        "longitudeE7" : 217296906
+      },
+      "duration" : {
+        "startTimestampMs" : "1577906850827",
+        "endTimestampMs" : "1577907215872"
+      },
+      "distance" : 372,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 83.59624743461609
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 9.252173453569412
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.4159222841262817
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.176380716264248
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.1175964958965778
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.706512713804841
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.5191342905163765
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.067426502937451
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.057758536422625184
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.038032603333704174
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.03217490739189088
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.011191653902642429
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.007009739056229591
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0020738551029353403
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 3.65454957318434E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382372817,
+          "lngE7" : 217327384
+        }, {
+          "latE7" : 382382392,
+          "lngE7" : 217324771
+        }, {
+          "latE7" : 382382392,
+          "lngE7" : 217324771
+        }, {
+          "latE7" : 382384948,
+          "lngE7" : 217303543
+        }, {
+          "latE7" : 382388496,
+          "lngE7" : 217296352
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1577907215872",
+        "endTimestampMs" : "1577962227087"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 382389725,
+      "centerLngE7" : 217294522
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382386374,
+        "longitudeE7" : 217296004
+      },
+      "endLocation" : {
+        "latitudeE7" : 382362655,
+        "longitudeE7" : 217312733
+      },
+      "duration" : {
+        "startTimestampMs" : "1577962227087",
+        "endTimestampMs" : "1577962507701"
+      },
+      "distance" : 368,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 84.8351538181305
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 9.007501602172852
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.851191557943821
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.6679048538208008
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.301052886992693
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 1.0226904414594173
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.2505912212654948
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.023188674822449684
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.01437148021068424
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.013018240861129016
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.0049889873480424285
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.004756477210321464
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0029502343750209548
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 4.7753424041729886E-4
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 1.5431800193255185E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382386360,
+          "lngE7" : 217295932
+        }, {
+          "latE7" : 382369308,
+          "lngE7" : 217313842
+        }, {
+          "latE7" : 382362976,
+          "lngE7" : 217312622
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382366849,
+        "longitudeE7" : 217318778,
+        "placeId" : "ChIJS3IGKyE2XhMRl9-gkwkryVs",
+        "address" : "Koumanioti 69\nPatra 262 22\nHellas",
+        "name" : "Koumanioti 69",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1577962507701",
+        "endTimestampMs" : "1577962879153"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382364350,
+      "centerLngE7" : 217318250
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382364624,
+        "longitudeE7" : 217320796
+      },
+      "endLocation" : {
+        "latitudeE7" : 382364511,
+        "longitudeE7" : 217321376
+      },
+      "duration" : {
+        "startTimestampMs" : "1577962879153",
+        "endTimestampMs" : "1577964416226"
+      },
+      "distance" : 1981,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 75.25942325592041
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 10.374386608600616
+      }, {
+        "activityType" : "STILL",
+        "probability" : 7.28268176317215
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.9784252867102623
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.9008969888091087
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 1.558306347578764
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.4823409952223301
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.05253468407317996
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.037777196848765016
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.029805197846144438
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.02821432426571846
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.007694228406762704
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.006269608275033534
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 6.591537839994999E-4
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 5.782128482678672E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382364768,
+          "lngE7" : 217320747
+        }, {
+          "latE7" : 382360801,
+          "lngE7" : 217288208
+        }, {
+          "latE7" : 382348785,
+          "lngE7" : 217277908
+        }, {
+          "latE7" : 382348327,
+          "lngE7" : 217273330
+        }, {
+          "latE7" : 382344665,
+          "lngE7" : 217255744
+        }, {
+          "latE7" : 382318878,
+          "lngE7" : 217246017
+        }, {
+          "latE7" : 382318458,
+          "lngE7" : 217245922
+        }, {
+          "latE7" : 382322769,
+          "lngE7" : 217275276
+        }, {
+          "latE7" : 382334594,
+          "lngE7" : 217282428
+        }, {
+          "latE7" : 382364883,
+          "lngE7" : 217321243
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382366849,
+        "longitudeE7" : 217318778,
+        "placeId" : "ChIJS3IGKyE2XhMRl9-gkwkryVs",
+        "address" : "Koumanioti 69\nPatra 262 22\nHellas",
+        "name" : "Koumanioti 69",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1577964416226",
+        "endTimestampMs" : "1577995765687"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382365412,
+      "centerLngE7" : 217320103
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382359519,
+        "longitudeE7" : 217322146
+      },
+      "endLocation" : {
+        "latitudeE7" : 382388614,
+        "longitudeE7" : 217296417
+      },
+      "duration" : {
+        "startTimestampMs" : "1577995765687",
+        "endTimestampMs" : "1577996386261"
+      },
+      "distance" : 393,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 44.973427057266235
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 29.520976543426514
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 16.685953736305237
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 4.616823792457581
+      }, {
+        "activityType" : "STILL",
+        "probability" : 2.447512187063694
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.8906451053917408
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.36186210345476866
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.1702008186839521
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.14060446992516518
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.05294052534736693
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.051278615137562156
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.043940229807049036
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.02721038763411343
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.016136316116899252
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 4.89953799842624E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382359619,
+          "lngE7" : 217323417
+        }, {
+          "latE7" : 382371635,
+          "lngE7" : 217316055
+        }, {
+          "latE7" : 382388610,
+          "lngE7" : 217296390
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1577996386261",
+        "endTimestampMs" : "1578006737282"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 382389843,
+      "centerLngE7" : 217293973
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382386993,
+        "longitudeE7" : 217297426
+      },
+      "endLocation" : {
+        "latitudeE7" : 382365362,
+        "longitudeE7" : 217319785
+      },
+      "duration" : {
+        "startTimestampMs" : "1578006737282",
+        "endTimestampMs" : "1578007574681"
+      },
+      "distance" : 309,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 45.018717646598816
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 33.39133560657501
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 13.51613849401474
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 6.287394464015961
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.6362348329275846
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.5720038898289204
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.35434875171631575
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.07277114782482386
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.06517517613247037
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.035961513640359044
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.03498517326079309
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.00787827666499652
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.004929925853502937
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.001986545066756662
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 1.3813164514431264E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382387161,
+          "lngE7" : 217296104
+        }, {
+          "latE7" : 382372322,
+          "lngE7" : 217309207
+        }, {
+          "latE7" : 382364616,
+          "lngE7" : 217320079
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382366849,
+        "longitudeE7" : 217318778,
+        "placeId" : "ChIJS3IGKyE2XhMRl9-gkwkryVs",
+        "address" : "Koumanioti 69\nPatra 262 22\nHellas",
+        "name" : "Koumanioti 69",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578007574681",
+        "endTimestampMs" : "1578037867107"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382365674,
+      "centerLngE7" : 217320174
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382364735,
+        "longitudeE7" : 217320601
+      },
+      "endLocation" : {
+        "latitudeE7" : 382322170,
+        "longitudeE7" : 217253562
+      },
+      "duration" : {
+        "startTimestampMs" : "1578037867107",
+        "endTimestampMs" : "1578038667308"
+      },
+      "distance" : 815,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 79.98230457305908
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 9.778496623039246
+      }, {
+        "activityType" : "STILL",
+        "probability" : 6.387685239315033
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.4342231675982475
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.858002994209528
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.7777023129165173
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.45316601172089577
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.13052014401182532
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.08313321741297841
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.05449701566249132
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.03722819092217833
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.009909422078635544
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.007296875264728442
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.004890320269623771
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 9.490123375144321E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382364730,
+          "lngE7" : 217320594
+        }, {
+          "latE7" : 382358894,
+          "lngE7" : 217290859
+        }, {
+          "latE7" : 382345771,
+          "lngE7" : 217290210
+        }, {
+          "latE7" : 382342605,
+          "lngE7" : 217286663
+        }, {
+          "latE7" : 382325325,
+          "lngE7" : 217268962
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382322270,
+        "longitudeE7" : 217253550,
+        "placeId" : "ChIJsdkuiS82XhMRIRawQ5hbzus",
+        "address" : "Ακτή Δυμαίων\nΕλ. Βενιζέλου\nPatra 265 00\nGreece",
+        "name" : "ΑΒ Βασιλόπουλος",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578038667308",
+        "endTimestampMs" : "1578040929982"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382322443,
+      "centerLngE7" : 217254381
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382324495,
+        "longitudeE7" : 217254724
+      },
+      "endLocation" : {
+        "latitudeE7" : 382342214,
+        "longitudeE7" : 217277993
+      },
+      "duration" : {
+        "startTimestampMs" : "1578040929982",
+        "endTimestampMs" : "1578041223960"
+      },
+      "distance" : 360,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 85.26901602745056
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 7.6081834733486176
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.4593552574515343
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.2757972814142704
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.2521937489509583
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.053366530686617
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.9570375084877014
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.04179493698757142
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.027721337391994894
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.023028957366477698
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.014996505342423916
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.009757388761499897
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.004037511462229304
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.00321918232657481
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 4.959450961905532E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382326202,
+          "lngE7" : 217254981
+        }, {
+          "latE7" : 382334556,
+          "lngE7" : 217276420
+        }, {
+          "latE7" : 382342262,
+          "lngE7" : 217277164
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382342594,
+        "longitudeE7" : 217277796,
+        "placeId" : "ChIJqXT_xCU2XhMRc5ulGeOpCoc",
+        "address" : "Korinthou\nPatra 262 22\nHellas",
+        "name" : "Coffee Island",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578041223960",
+        "endTimestampMs" : "1578041709600"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382343233,
+      "centerLngE7" : 217278667
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382346455,
+        "longitudeE7" : 217284267
+      },
+      "endLocation" : {
+        "latitudeE7" : 382364626,
+        "longitudeE7" : 217320923
+      },
+      "duration" : {
+        "startTimestampMs" : "1578041709600",
+        "endTimestampMs" : "1578042045171"
+      },
+      "distance" : 399,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 87.98626661300659
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 5.69022111594677
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.1436907351017
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.4013709500432014
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.0329886339604855
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.8795710280537605
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.7174348924309015
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.04285568429622799
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.037994119338691235
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.026957073714584112
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.023179277195595205
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.00888747163116932
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.004472526779863983
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.00347020904882811
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 6.424907041946426E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382346496,
+          "lngE7" : 217283725
+        }, {
+          "latE7" : 382363510,
+          "lngE7" : 217315063
+        }, {
+          "latE7" : 382364807,
+          "lngE7" : 217320861
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382366849,
+        "longitudeE7" : 217318778,
+        "placeId" : "ChIJS3IGKyE2XhMRl9-gkwkryVs",
+        "address" : "Koumanioti 69\nPatra 262 22\nHellas",
+        "name" : "Koumanioti 69",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578042045171",
+        "endTimestampMs" : "1578130914384"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382365187,
+      "centerLngE7" : 217319653
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382364887,
+        "longitudeE7" : 217320490
+      },
+      "endLocation" : {
+        "latitudeE7" : 382389859,
+        "longitudeE7" : 217294581
+      },
+      "duration" : {
+        "startTimestampMs" : "1578130914384",
+        "endTimestampMs" : "1578132802687"
+      },
+      "distance" : 951,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 67.20096468925476
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 15.358228981494904
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 5.793241038918495
+      }, {
+        "activityType" : "STILL",
+        "probability" : 4.912309721112251
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 3.304223343729973
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.309401147067547
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.7455312181264162
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.1369086094200611
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.09141748305410147
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.07385832141153514
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.03359618422109634
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.019544120004866272
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.013321985898073763
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.005413313920143992
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0020372483049868606
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382364730,
+          "lngE7" : 217320556
+        }, {
+          "latE7" : 382372398,
+          "lngE7" : 217354984
+        }, {
+          "latE7" : 382372856,
+          "lngE7" : 217356815
+        }, {
+          "latE7" : 382378273,
+          "lngE7" : 217359294
+        }, {
+          "latE7" : 382376632,
+          "lngE7" : 217322235
+        }, {
+          "latE7" : 382379493,
+          "lngE7" : 217297363
+        }, {
+          "latE7" : 382389602,
+          "lngE7" : 217296600
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578132802687",
+        "endTimestampMs" : "1578134191645"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382389933,
+      "centerLngE7" : 217293667
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382388469,
+        "longitudeE7" : 217293127
+      },
+      "endLocation" : {
+        "latitudeE7" : 382451970,
+        "longitudeE7" : 217364299
+      },
+      "duration" : {
+        "startTimestampMs" : "1578134191645",
+        "endTimestampMs" : "1578139280615"
+      },
+      "distance" : 1315,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 80.19092679023743
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 7.0442333817481995
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 4.436172544956207
+      }, {
+        "activityType" : "STILL",
+        "probability" : 4.391766712069511
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 2.149330824613571
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.9973089210689068
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.6226530764251947
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.06279429071582854
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.04243774455972016
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.01940426154760644
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.018593351705931127
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.010696888057282194
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.009650173888076097
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0030020375561434776
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0010321693480364047
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382388076,
+          "lngE7" : 217296276
+        }, {
+          "latE7" : 382430725,
+          "lngE7" : 217328453
+        }, {
+          "latE7" : 382464408,
+          "lngE7" : 217319087
+        }, {
+          "latE7" : 382461166,
+          "lngE7" : 217335605
+        }, {
+          "latE7" : 382451972,
+          "lngE7" : 217364311
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382451707,
+        "longitudeE7" : 217363308,
+        "placeId" : "ChIJkxX3lt1JXhMRZOCv_vTrk1E",
+        "address" : "Γεροκωστοπούλου\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "INSPOT Patra",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578139280615",
+        "endTimestampMs" : "1578156261126"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382451546,
+      "centerLngE7" : 217364026
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382443894,
+        "longitudeE7" : 217357668
+      },
+      "endLocation" : {
+        "latitudeE7" : 382367208,
+        "longitudeE7" : 217321029
+      },
+      "duration" : {
+        "startTimestampMs" : "1578156261126",
+        "endTimestampMs" : "1578157706596"
+      },
+      "distance" : 922,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 78.89209985733032
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 11.86116710305214
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.2005928456783295
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.297509089112282
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.4114657416939735
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.3139551505446434
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.5742544773966074
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.1612383872270584
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.13535472098737955
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.08266856893897057
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.03570418921299279
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.012595028965733945
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.011416478082537651
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.008897970838006586
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.001080518359231064
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382444000,
+          "lngE7" : 217357559
+        }, {
+          "latE7" : 382432365,
+          "lngE7" : 217342548
+        }, {
+          "latE7" : 382365150,
+          "lngE7" : 217322444
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382366849,
+        "longitudeE7" : 217318778,
+        "placeId" : "ChIJS3IGKyE2XhMRl9-gkwkryVs",
+        "address" : "Koumanioti 69\nPatra 262 22\nHellas",
+        "name" : "Koumanioti 69",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578157706596",
+        "endTimestampMs" : "1578211444499"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382365010,
+      "centerLngE7" : 217320006
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382372116,
+        "longitudeE7" : 217310950
+      },
+      "endLocation" : {
+        "latitudeE7" : 382382609,
+        "longitudeE7" : 217306349
+      },
+      "duration" : {
+        "startTimestampMs" : "1578211444499",
+        "endTimestampMs" : "1578211565471"
+      },
+      "distance" : 123,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 74.42553639411926
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 15.88086187839508
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 4.306355491280556
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.283514477312565
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 1.1680852621793747
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.0559001937508583
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.5663881078362465
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.11921117547899485
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0766589364502579
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.04782991309184581
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.045065724407322705
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.011803358211182058
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.010078593186335638
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0023149877961259335
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 3.846824256470427E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382372131,
+          "lngE7" : 217310943
+        }, {
+          "latE7" : 382375679,
+          "lngE7" : 217304649
+        }, {
+          "latE7" : 382382698,
+          "lngE7" : 217305755
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578211565471",
+        "endTimestampMs" : "1578213174439"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382388848,
+      "centerLngE7" : 217295888
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382378884,
+        "longitudeE7" : 217297864
+      },
+      "endLocation" : {
+        "latitudeE7" : 382364352,
+        "longitudeE7" : 217322540
+      },
+      "duration" : {
+        "startTimestampMs" : "1578213174439",
+        "endTimestampMs" : "1578214144295"
+      },
+      "distance" : 915,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 68.4269368648529
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 13.026605546474457
+      }, {
+        "activityType" : "STILL",
+        "probability" : 10.746417194604874
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 3.788435459136963
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.1912697702646255
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.947333313524723
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.6431754678487778
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.06519684684462845
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.058517110301181674
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.045136373955756426
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.04064198874402791
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.009292725007981062
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.00907441572053358
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.001382522805215558
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 5.827273980685277E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382379417,
+          "lngE7" : 217297954
+        }, {
+          "latE7" : 382372665,
+          "lngE7" : 217305679
+        }, {
+          "latE7" : 382372512,
+          "lngE7" : 217307186
+        }, {
+          "latE7" : 382371635,
+          "lngE7" : 217316055
+        }, {
+          "latE7" : 382370223,
+          "lngE7" : 217326965
+        }, {
+          "latE7" : 382369194,
+          "lngE7" : 217339496
+        }, {
+          "latE7" : 382369689,
+          "lngE7" : 217341518
+        }, {
+          "latE7" : 382371215,
+          "lngE7" : 217348384
+        }, {
+          "latE7" : 382371902,
+          "lngE7" : 217357883
+        }, {
+          "latE7" : 382359886,
+          "lngE7" : 217343730
+        }, {
+          "latE7" : 382364349,
+          "lngE7" : 217322654
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382366849,
+        "longitudeE7" : 217318778,
+        "placeId" : "ChIJS3IGKyE2XhMRl9-gkwkryVs",
+        "address" : "Koumanioti 69\nPatra 262 22\nHellas",
+        "name" : "Koumanioti 69",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578214144295",
+        "endTimestampMs" : "1578304251523"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382365350,
+      "centerLngE7" : 217319496
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382366158,
+        "longitudeE7" : 217323380
+      },
+      "endLocation" : {
+        "latitudeE7" : 382366988,
+        "longitudeE7" : 217332299
+      },
+      "duration" : {
+        "startTimestampMs" : "1578304251523",
+        "endTimestampMs" : "1578305861502"
+      },
+      "distance" : 1055,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 55.14228343963623
+      }, {
+        "activityType" : "STILL",
+        "probability" : 25.559064745903015
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 10.573113709688187
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 4.2535025626420975
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.718367986381054
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.7859704084694386
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.7772479671984911
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.06828790064901114
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.047225531307049096
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.0355807482264936
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.021908750932198018
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.008122489816742018
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.005400365625973791
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.003299242234788835
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 6.293913884292124E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382365493,
+          "lngE7" : 217323665
+        }, {
+          "latE7" : 382377815,
+          "lngE7" : 217338848
+        }, {
+          "latE7" : 382399940,
+          "lngE7" : 217350940
+        }, {
+          "latE7" : 382387504,
+          "lngE7" : 217356681
+        }, {
+          "latE7" : 382371902,
+          "lngE7" : 217357883
+        }, {
+          "latE7" : 382369689,
+          "lngE7" : 217341632
+        }, {
+          "latE7" : 382367553,
+          "lngE7" : 217332115
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382366849,
+        "longitudeE7" : 217318778,
+        "placeId" : "ChIJS3IGKyE2XhMRl9-gkwkryVs",
+        "address" : "Koumanioti 69\nPatra 262 22\nHellas",
+        "name" : "Koumanioti 69",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578305861502",
+        "endTimestampMs" : "1578334340826"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382365013,
+      "centerLngE7" : 217319738
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382363748,
+        "longitudeE7" : 217314983
+      },
+      "endLocation" : {
+        "latitudeE7" : 382470575,
+        "longitudeE7" : 217326469
+      },
+      "duration" : {
+        "startTimestampMs" : "1578334340826",
+        "endTimestampMs" : "1578335569278"
+      },
+      "distance" : 1390,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 82.73714780807495
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 9.590621292591095
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.0691534504294395
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.7940757796168327
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.575145684182644
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.9616019204258919
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.9542356245219707
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.11696582660079002
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.08176813717000186
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.041184117435477674
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.03149891272187233
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.025329430354759097
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.013613890041597188
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.006818819383624941
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 8.363285814994015E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382363510,
+          "lngE7" : 217315063
+        }, {
+          "latE7" : 382367286,
+          "lngE7" : 217308235
+        }, {
+          "latE7" : 382367744,
+          "lngE7" : 217303009
+        }, {
+          "latE7" : 382376937,
+          "lngE7" : 217294158
+        }, {
+          "latE7" : 382380180,
+          "lngE7" : 217294750
+        }, {
+          "latE7" : 382397651,
+          "lngE7" : 217298412
+        }, {
+          "latE7" : 382401962,
+          "lngE7" : 217292633
+        }, {
+          "latE7" : 382405433,
+          "lngE7" : 217287101
+        }, {
+          "latE7" : 382427406,
+          "lngE7" : 217299022
+        }, {
+          "latE7" : 382430038,
+          "lngE7" : 217302646
+        }, {
+          "latE7" : 382435569,
+          "lngE7" : 217310218
+        }, {
+          "latE7" : 382437362,
+          "lngE7" : 217312507
+        }, {
+          "latE7" : 382447013,
+          "lngE7" : 217319602
+        }, {
+          "latE7" : 382461967,
+          "lngE7" : 217315979
+        }, {
+          "latE7" : 382470436,
+          "lngE7" : 217326660
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382462534,
+        "longitudeE7" : 217324795,
+        "placeId" : "ChIJd2m8ZNxJXhMRKb0H8hcUC34",
+        "address" : "Παντανάσσης 3\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Psitopolis",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578335569278",
+        "endTimestampMs" : "1578336177507"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382464857,
+      "centerLngE7" : 217325771
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382457698,
+        "longitudeE7" : 217331995
+      },
+      "endLocation" : {
+        "latitudeE7" : 382397537,
+        "longitudeE7" : 217298049
+      },
+      "duration" : {
+        "startTimestampMs" : "1578336177507",
+        "endTimestampMs" : "1578337168335"
+      },
+      "distance" : 845,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 79.51785922050476
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 9.877998381853104
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 3.5023417323827744
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.035604953765869
+      }, {
+        "activityType" : "STILL",
+        "probability" : 2.2648565471172333
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.9012022987008095
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.6239740643650293
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.11072063352912664
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.061174173606559634
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.03174470621161163
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.026061933021992445
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.024030097119975835
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.019099948985967785
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0028145903343101963
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 5.188337581785163E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382457580,
+          "lngE7" : 217331867
+        }, {
+          "latE7" : 382433547,
+          "lngE7" : 217332172
+        }, {
+          "latE7" : 382427864,
+          "lngE7" : 217324562
+        }, {
+          "latE7" : 382421913,
+          "lngE7" : 217310886
+        }, {
+          "latE7" : 382420234,
+          "lngE7" : 217304096
+        }, {
+          "latE7" : 382408523,
+          "lngE7" : 217300701
+        }, {
+          "latE7" : 382397499,
+          "lngE7" : 217298374
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578337168335",
+        "endTimestampMs" : "1578337886947"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382388400,
+      "centerLngE7" : 217296537
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382384062,
+        "longitudeE7" : 217296105
+      },
+      "endLocation" : {
+        "latitudeE7" : 382362198,
+        "longitudeE7" : 217311781
+      },
+      "duration" : {
+        "startTimestampMs" : "1578337886947",
+        "endTimestampMs" : "1578338135025"
+      },
+      "distance" : 279,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 82.36039876937866
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 8.688601851463318
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.599875047802925
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.7436837553977966
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.8722828701138496
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.7993778213858604
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.631779246032238
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.13810353120788932
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.04707947664428502
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.0465082295704633
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.030965963378548622
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.01957130734808743
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.01701805740594864
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.00432360902777873
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 4.261199137545191E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382384147,
+          "lngE7" : 217295513
+        }, {
+          "latE7" : 382361602,
+          "lngE7" : 217306632
+        }, {
+          "latE7" : 382362747,
+          "lngE7" : 217311592
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382366849,
+        "longitudeE7" : 217318778,
+        "placeId" : "ChIJS3IGKyE2XhMRl9-gkwkryVs",
+        "address" : "Koumanioti 69\nPatra 262 22\nHellas",
+        "name" : "Koumanioti 69",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578338135025",
+        "endTimestampMs" : "1578396978204"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382365467,
+      "centerLngE7" : 217320936
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382365342,
+        "longitudeE7" : 217326003
+      },
+      "endLocation" : {
+        "latitudeE7" : 382456763,
+        "longitudeE7" : 217357946
+      },
+      "duration" : {
+        "startTimestampMs" : "1578396978204",
+        "endTimestampMs" : "1578397435186"
+      },
+      "distance" : 1244,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 43.64311695098877
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 30.853939056396484
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 20.335057377815247
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.38963570445776
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.798304844647646
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.620713084936142
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.47105755656957626
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.2784478943794966
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.22143837995827198
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.16385798808187246
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.12082428438588977
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.08439074154011905
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.012806251470465213
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.003408921111258678
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0030008144676685333
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382366027,
+          "lngE7" : 217325706
+        }, {
+          "latE7" : 382409057,
+          "lngE7" : 217333679
+        }, {
+          "latE7" : 382427139,
+          "lngE7" : 217311630
+        }, {
+          "latE7" : 382448539,
+          "lngE7" : 217339286
+        }, {
+          "latE7" : 382457008,
+          "lngE7" : 217358226
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382464294,
+        "longitudeE7" : 217364216,
+        "placeId" : "ChIJ409Fct1JXhMRRdsycrbQFg8",
+        "address" : "Ermou 69\nPatra 262 21\nHellas",
+        "name" : "Ermou 69",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578397435186",
+        "endTimestampMs" : "1578407207401"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382452368,
+      "centerLngE7" : 217347236
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382453469,
+        "longitudeE7" : 217345267
+      },
+      "endLocation" : {
+        "latitudeE7" : 382362630,
+        "longitudeE7" : 217311201
+      },
+      "duration" : {
+        "startTimestampMs" : "1578407207401",
+        "endTimestampMs" : "1578407874190"
+      },
+      "distance" : 1675,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 40.85706174373627
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 40.06568789482117
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 5.609769374132156
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 5.3865037858486176
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 4.581383243203163
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.6622787341475487
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.9115414693951607
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.31453720293939114
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.22248751483857632
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.19880440086126328
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.1261301222257316
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.033024820731952786
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.016147823771461844
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0120214419439435
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0026242871172144078
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382453422,
+          "lngE7" : 217345314
+        }, {
+          "latE7" : 382457656,
+          "lngE7" : 217352104
+        }, {
+          "latE7" : 382465209,
+          "lngE7" : 217347030
+        }, {
+          "latE7" : 382443313,
+          "lngE7" : 217320327
+        }, {
+          "latE7" : 382408790,
+          "lngE7" : 217284832
+        }, {
+          "latE7" : 382374649,
+          "lngE7" : 217314834
+        }, {
+          "latE7" : 382362632,
+          "lngE7" : 217311191
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382366849,
+        "longitudeE7" : 217318778,
+        "placeId" : "ChIJS3IGKyE2XhMRl9-gkwkryVs",
+        "address" : "Koumanioti 69\nPatra 262 22\nHellas",
+        "name" : "Koumanioti 69",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578407874190",
+        "endTimestampMs" : "1578412756484"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382364953,
+      "centerLngE7" : 217319418
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382363415,
+        "longitudeE7" : 217313449
+      },
+      "endLocation" : {
+        "latitudeE7" : 382373536,
+        "longitudeE7" : 217262908
+      },
+      "duration" : {
+        "startTimestampMs" : "1578412756484",
+        "endTimestampMs" : "1578413083207"
+      },
+      "distance" : 463,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 67.68510341644287
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 17.783795297145844
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 6.837213784456253
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.545103594660759
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.5545736998319626
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.4050033874809742
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.9232189506292343
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.09284860570915043
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.05491289193741977
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.050512515008449554
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.045921592391096056
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.010688538168324158
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.008264225471066311
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.00218943678191863
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 6.549279078171821E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382363090,
+          "lngE7" : 217313270
+        }, {
+          "latE7" : 382365264,
+          "lngE7" : 217288970
+        }, {
+          "latE7" : 382373275,
+          "lngE7" : 217265567
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382375678,
+        "longitudeE7" : 217259215,
+        "placeId" : "ChIJyePy1Cc2XhMREMNjshYf1to",
+        "address" : "Ακτή Δυμαίων 17\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Veso Mare",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578413083207",
+        "endTimestampMs" : "1578413933686"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 382376866,
+          "longitudeE7" : 217261601,
+          "placeId" : "ChIJYdZBLCY2XhMRZRAQwVO1aEg",
+          "address" : "Ακτή Δυμαίων 17\nΠάτρα 262 22\nΕλλάδα",
+          "name" : "JUMBO",
+          "sourceInfo" : {
+            "deviceTag" : -569681697
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1578413083207",
+          "endTimestampMs" : "1578413933686"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 382375212,
+        "centerLngE7" : 217262400
+      } ],
+      "centerLatE7" : 382375212,
+      "centerLngE7" : 217262400
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382373144,
+        "longitudeE7" : 217260541
+      },
+      "endLocation" : {
+        "latitudeE7" : 382387762,
+        "longitudeE7" : 217297106
+      },
+      "duration" : {
+        "startTimestampMs" : "1578413933686",
+        "endTimestampMs" : "1578414297286"
+      },
+      "distance" : 494,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 63.52302432060242
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 14.678603410720825
+      }, {
+        "activityType" : "STILL",
+        "probability" : 13.597039878368378
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.108713962137699
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.3540198802948
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 2.005164511501789
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.30108217615634203
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.18559308955445886
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.09980209870263934
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.07656642119400203
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.03128549724351615
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.01415618316968903
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.01206666711368598
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.011301715858280659
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0015813775462447666
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382372817,
+          "lngE7" : 217256698
+        }, {
+          "latE7" : 382365531,
+          "lngE7" : 217281112
+        }, {
+          "latE7" : 382387886,
+          "lngE7" : 217296237
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578414297286",
+        "endTimestampMs" : "1578415721287"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382389660,
+      "centerLngE7" : 217294790
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382387869,
+        "longitudeE7" : 217297256
+      },
+      "endLocation" : {
+        "latitudeE7" : 382371954,
+        "longitudeE7" : 217315529
+      },
+      "duration" : {
+        "startTimestampMs" : "1578415721287",
+        "endTimestampMs" : "1578415964597"
+      },
+      "distance" : 238,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 79.65887784957886
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 10.911457240581512
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.9445985332131386
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 2.2604499012231827
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.767994649708271
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.5954826027154922
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.566563569009304
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.08098327089101076
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.07799580926075578
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.07150165038183331
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.046383129665628076
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.006606597162317485
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.006400376150850207
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.004014010482933372
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 6.820938324381132E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382388000,
+          "lngE7" : 217296257
+        }, {
+          "latE7" : 382371788,
+          "lngE7" : 217314872
+        }, {
+          "latE7" : 382371711,
+          "lngE7" : 217315483
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382366849,
+        "longitudeE7" : 217318778,
+        "placeId" : "ChIJS3IGKyE2XhMRl9-gkwkryVs",
+        "address" : "Koumanioti 69\nPatra 262 22\nHellas",
+        "name" : "Koumanioti 69",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578415964597",
+        "endTimestampMs" : "1578416987148"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382365870,
+      "centerLngE7" : 217319410
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382364360,
+        "longitudeE7" : 217322794
+      },
+      "endLocation" : {
+        "latitudeE7" : 382370057,
+        "longitudeE7" : 217344657
+      },
+      "duration" : {
+        "startTimestampMs" : "1578416987148",
+        "endTimestampMs" : "1578417108143"
+      },
+      "distance" : 201,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 81.38233423233032
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 11.147072911262512
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.8880553543567657
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.8448572605848312
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.7045378684997559
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.0386418551206589
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.7436886895447969
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.09045490878634155
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.05565594765357673
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.046519096940755844
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.029871449805796146
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.014815785107202828
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.007379254384431988
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.005661681279889308
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 4.5049473555991426E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382364311,
+          "lngE7" : 217322654
+        }, {
+          "latE7" : 382369575,
+          "lngE7" : 217341003
+        }, {
+          "latE7" : 382370414,
+          "lngE7" : 217344532
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382371740,
+        "longitudeE7" : 217358014,
+        "placeId" : "ChIJN0z7QCA2XhMR2KoE9K8lq_E",
+        "address" : "Σμύρνης 98\nΠάτρα 262 24\nΕλλάδα",
+        "name" : "Coffee Island",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578417108143",
+        "endTimestampMs" : "1578417592773"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382371220,
+      "centerLngE7" : 217353740
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382371340,
+        "longitudeE7" : 217348487
+      },
+      "endLocation" : {
+        "latitudeE7" : 382367249,
+        "longitudeE7" : 217329946
+      },
+      "duration" : {
+        "startTimestampMs" : "1578417592773",
+        "endTimestampMs" : "1578417714534"
+      },
+      "distance" : 168,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 83.17661881446838
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 10.046616196632385
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.9014833495020866
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.8154868856072426
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.4017405919730663
+      }, {
+        "activityType" : "STILL",
+        "probability" : 0.8173088543117046
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.6805488839745522
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.055678351782262325
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.03200444334652275
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.031018393929116428
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.022522758808918297
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.010771811503218487
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.004778271249961108
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.0030177017833921127
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 4.104851086594863E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382371253,
+          "lngE7" : 217348499
+        }, {
+          "latE7" : 382367897,
+          "lngE7" : 217333736
+        }, {
+          "latE7" : 382367095,
+          "lngE7" : 217329998
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382366849,
+        "longitudeE7" : 217318778,
+        "placeId" : "ChIJS3IGKyE2XhMRl9-gkwkryVs",
+        "address" : "Koumanioti 69\nPatra 262 22\nHellas",
+        "name" : "Koumanioti 69",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578417714534",
+        "endTimestampMs" : "1578475446376"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382365203,
+      "centerLngE7" : 217320185
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382365365,
+        "longitudeE7" : 217319442
+      },
+      "endLocation" : {
+        "latitudeE7" : 382451846,
+        "longitudeE7" : 217343017
+      },
+      "duration" : {
+        "startTimestampMs" : "1578475446376",
+        "endTimestampMs" : "1578476505253"
+      },
+      "distance" : 1400,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 37.49856650829315
+      }, {
+        "activityType" : "STILL",
+        "probability" : 36.35056912899017
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 13.066665828227997
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 11.06407716870308
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.1177298612892628
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.4442289937287569
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.3487019566819072
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.03603720397222787
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.03243112878408283
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.0170891682500951
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.01223175204358995
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.006645055691478774
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.0028233096600160934
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.001977728425117675
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 2.281031129314215E-4
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382364540,
+          "lngE7" : 217319755
+        }, {
+          "latE7" : 382361907,
+          "lngE7" : 217307968
+        }, {
+          "latE7" : 382360610,
+          "lngE7" : 217302703
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382469428,
+        "longitudeE7" : 217358634,
+        "placeId" : "ChIJ1W5FEd1JXhMRkFbiPUtwewg",
+        "address" : "Ερμού 55\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Public",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578476505253",
+        "endTimestampMs" : "1578485293494"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 382462526,
+          "longitudeE7" : 217350662,
+          "placeId" : "ChIJnV5YB91JXhMRShIdNaDdUBA",
+          "address" : "Πλ. Γεωρ. Α\nΠάτρα 262 21\nΕλλάδα",
+          "name" : "Square Of King George",
+          "sourceInfo" : {
+            "deviceTag" : -569681697
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1578476505253",
+          "endTimestampMs" : "1578485293494"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 382460292,
+        "centerLngE7" : 217348369
+      } ],
+      "centerLatE7" : 382460292,
+      "centerLngE7" : 217348369
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382456784,
+        "longitudeE7" : 217350725
+      },
+      "endLocation" : {
+        "latitudeE7" : 382365467,
+        "longitudeE7" : 217317875
+      },
+      "duration" : {
+        "startTimestampMs" : "1578485293494",
+        "endTimestampMs" : "1578490296676"
+      },
+      "distance" : 1055,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 56.09452724456787
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 23.653388023376465
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 9.678324311971664
+      }, {
+        "activityType" : "STILL",
+        "probability" : 4.175695031881332
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 3.78144234418869
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.4186099171638489
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.5735722370445728
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.3685384523123503
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.08100830600596964
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.07995329215191305
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.057452882174402475
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.027965634944848716
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.003953150735469535
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0032659663702361286
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0022940543203731067
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382457199,
+          "lngE7" : 217350177
+        }, {
+          "latE7" : 382435722,
+          "lngE7" : 217322635
+        }, {
+          "latE7" : 382396774,
+          "lngE7" : 217276210
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382366849,
+        "longitudeE7" : 217318778,
+        "placeId" : "ChIJS3IGKyE2XhMRl9-gkwkryVs",
+        "address" : "Koumanioti 69\nPatra 262 22\nHellas",
+        "name" : "Koumanioti 69",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578490296676",
+        "endTimestampMs" : "1578550686700"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382365320,
+      "centerLngE7" : 217319844
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382366182,
+        "longitudeE7" : 217322994,
+        "placeId" : "ChIJk0dCKCE2XhMR7llbNJbT0Rs",
+        "address" : "Archiepiskopou Ierotheou 100a\nPatra 262 22\nHellas",
+        "name" : "Archiepiskopou Ierotheou 100a",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578550686700",
+        "endTimestampMs" : "1578554153589"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382365803,
+      "centerLngE7" : 217321208
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382363025,
+        "longitudeE7" : 217312485
+      },
+      "endLocation" : {
+        "latitudeE7" : 382457406,
+        "longitudeE7" : 217356259
+      },
+      "duration" : {
+        "startTimestampMs" : "1578554153589",
+        "endTimestampMs" : "1578555144432"
+      },
+      "distance" : 1276,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 67.4343466758728
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 14.454962313175201
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 13.519640266895294
+      }, {
+        "activityType" : "STILL",
+        "probability" : 1.2713243253529072
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.2526477687060833
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 1.1175592429935932
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.4627967718988657
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.13230963377282023
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.11638266732916236
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.10623999405652285
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.058420124696567655
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.039006504812277853
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.026886555133387446
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.004401453043101355
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0030823757697362453
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382362937,
+          "lngE7" : 217312507
+        }, {
+          "latE7" : 382362518,
+          "lngE7" : 217302036
+        }, {
+          "latE7" : 382364692,
+          "lngE7" : 217302341
+        }, {
+          "latE7" : 382425918,
+          "lngE7" : 217334842
+        }, {
+          "latE7" : 382435111,
+          "lngE7" : 217334079
+        }, {
+          "latE7" : 382446823,
+          "lngE7" : 217349128
+        }, {
+          "latE7" : 382458038,
+          "lngE7" : 217356243
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 382363319,
+          "lngE7" : 217302399,
+          "timestampMs" : "1578554273158",
+          "accuracyMeters" : 23
+        }, {
+          "latE7" : 382434196,
+          "lngE7" : 217334976,
+          "timestampMs" : "1578554902295",
+          "accuracyMeters" : 16
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382469428,
+        "longitudeE7" : 217358634,
+        "placeId" : "ChIJ1W5FEd1JXhMRkFbiPUtwewg",
+        "address" : "Ερμού 55\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Public",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578555144432",
+        "endTimestampMs" : "1578555457754"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 382467048,
+          "longitudeE7" : 217361806,
+          "placeId" : "ChIJa3q5Z-lJXhMRu4GK2z4Ab2c",
+          "address" : "Κορίνθου 230\nΠάτρα 262 21\nΕλλάδα",
+          "name" : "Minibox Κορίνθου και Ερμού",
+          "sourceInfo" : {
+            "deviceTag" : -569681697
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1578555144432",
+          "endTimestampMs" : "1578555457754"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 382464900,
+        "centerLngE7" : 217359250
+      } ],
+      "centerLatE7" : 382464900,
+      "centerLngE7" : 217359250
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382467649,
+        "longitudeE7" : 217360113
+      },
+      "endLocation" : {
+        "latitudeE7" : 382846045,
+        "longitudeE7" : 217882432
+      },
+      "duration" : {
+        "startTimestampMs" : "1578555457754",
+        "endTimestampMs" : "1578557825346"
+      },
+      "distance" : 6217,
+      "activityType" : "IN_BUS",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_BUS",
+        "probability" : 33.069467544555664
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 30.7369202375412
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 30.4103285074234
+      }, {
+        "activityType" : "STILL",
+        "probability" : 3.3182311803102493
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 1.149591337889433
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.7564314175397158
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.23200835566967726
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.08779612835496664
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.06261469097808003
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.06056865677237511
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.0515697814989835
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.04470273561310023
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.014951229968573898
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0037939669709885493
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0010282755283697043
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382892300,
+        "longitudeE7" : 217853690,
+        "placeId" : "ChIJC5SZMHlMXhMR8wiJH3vyoUA",
+        "address" : "Πανεπιστημιούπολη Πατρών 265 04\nΕλλάδα",
+        "name" : "University Of Patras",
+        "semanticType" : "TYPE_WORK",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578557825346",
+        "endTimestampMs" : "1578564533632"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 382848599,
+          "longitudeE7" : 217880106,
+          "placeId" : "ChIJ2bWYIb9LXhMRRivOKTwEu7Y",
+          "address" : "Πανεπιστημιούπολη Πατρών 265 04\nΕλλάδα",
+          "name" : "Department of Computer Engineering and Informatics, School of Engineering, University of Patras",
+          "sourceInfo" : {
+            "deviceTag" : -569681697
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1578557825346",
+          "endTimestampMs" : "1578564533632"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 382846200,
+        "centerLngE7" : 217882243
+      } ],
+      "centerLatE7" : 382846200,
+      "centerLngE7" : 217882243
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382850103,
+        "longitudeE7" : 217876676
+      },
+      "endLocation" : {
+        "latitudeE7" : 382471777,
+        "longitudeE7" : 217359409
+      },
+      "duration" : {
+        "startTimestampMs" : "1578564533632",
+        "endTimestampMs" : "1578567716186"
+      },
+      "distance" : 6171,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 41.15646481513977
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 26.480618119239807
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 22.26473093032837
+      }, {
+        "activityType" : "STILL",
+        "probability" : 8.755998313426971
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.398501381278038
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.18022682052105665
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.17964262515306473
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.17712408443912864
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.12224905658513308
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.11457654181867838
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.07938368944451213
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.07413799175992608
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.01208370813401416
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0021326977730495855
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.002129183485521935
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382849388,
+          "lngE7" : 217877235
+        }, {
+          "latE7" : 382808609,
+          "lngE7" : 217674198
+        }, {
+          "latE7" : 382472763,
+          "lngE7" : 217358188
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382471777,
+        "longitudeE7" : 217359409
+      },
+      "endLocation" : {
+        "latitudeE7" : 382450958,
+        "longitudeE7" : 217337051
+      },
+      "duration" : {
+        "startTimestampMs" : "1578567716186",
+        "endTimestampMs" : "1578571726386"
+      },
+      "distance" : 302,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 33.56389403343201
+      }, {
+        "activityType" : "STILL",
+        "probability" : 29.04321551322937
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 27.917829155921936
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 8.38017463684082
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.2525609452277422
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.21793355699628592
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.15246914699673653
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.1435152953490615
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.13510031858459115
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.06813328363932669
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.06501367315649986
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.04024669178761542
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.014842941891402006
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.0028330981876933947
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0022384549083653837
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382472763,
+          "lngE7" : 217358188
+        }, {
+          "latE7" : 382459297,
+          "lngE7" : 217340259
+        }, {
+          "latE7" : 382452049,
+          "lngE7" : 217338485
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382460842,
+        "longitudeE7" : 217335992,
+        "placeId" : "ChIJXx-ZW9xJXhMRHlus2LKypWA",
+        "address" : "Πατρέως 30\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Discover YourWay",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578571726386",
+        "endTimestampMs" : "1578577233420"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382460307,
+      "centerLngE7" : 217334807
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382460646,
+        "longitudeE7" : 217334903
+      },
+      "endLocation" : {
+        "latitudeE7" : 382454462,
+        "longitudeE7" : 217321639
+      },
+      "duration" : {
+        "startTimestampMs" : "1578577233420",
+        "endTimestampMs" : "1578577810881"
+      },
+      "distance" : 824,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 75.04417300224304
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 14.72349762916565
+      }, {
+        "activityType" : "STILL",
+        "probability" : 6.841778755187988
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 1.6965029761195183
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.4307214170694351
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.2815287560224533
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.24459140840917826
+      }, {
+        "activityType" : "IN_SUBWAY",
+        "probability" : 0.2033744240179658
+      }, {
+        "activityType" : "FLYING",
+        "probability" : 0.18667873227968812
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 0.1662581693381071
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 0.15187113313004375
+      }, {
+        "activityType" : "IN_TRAM",
+        "probability" : 0.011813181481556967
+      }, {
+        "activityType" : "SAILING",
+        "probability" : 0.011325874947942793
+      }, {
+        "activityType" : "SKIING",
+        "probability" : 0.004414479190018028
+      }, {
+        "activityType" : "IN_VEHICLE",
+        "probability" : 0.0014631869817094412
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382461166,
+          "lngE7" : 217335605
+        }, {
+          "latE7" : 382447128,
+          "lngE7" : 217361621
+        }, {
+          "latE7" : 382453460,
+          "lngE7" : 217369880
+        }, {
+          "latE7" : 382456398,
+          "lngE7" : 217322826
+        }, {
+          "latE7" : 382454948,
+          "lngE7" : 217321014
+        } ]
+      },
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 382453728,
+          "lngE7" : 217369556,
+          "timestampMs" : "1578577455745",
+          "accuracyMeters" : 16
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382452959,
+        "longitudeE7" : 217324061,
+        "placeId" : "ChIJLTh2EtxJXhMRKm_WafdVU3w",
+        "address" : "Φιλοποίμενος 23\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "The Black Sheep Coffee - Filopoimenos",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1578577810881",
+        "endTimestampMs" : "1578581557667"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 382452692,
+      "centerLngE7" : 217323385
+    }
+  } ]
+}

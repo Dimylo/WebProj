@@ -1,0 +1,5064 @@
+{
+  "timelineObjects" : [ {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567490531987",
+        "endTimestampMs" : "1567491388283"
+      },
+      "distance" : 943,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 94.75027153429929
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 3.2673678780134754
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.2625629982110311
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567491388283",
+        "endTimestampMs" : "1567528706963"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 382405374,
+      "centerLngE7" : 217303731
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382482606,
+        "longitudeE7" : 217340579,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567528706963",
+        "endTimestampMs" : "1567529914397"
+      },
+      "distance" : 1095,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 90.86952950719127
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 5.007606963455957
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.195794402751671
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        }, {
+          "latE7" : 382437477,
+          "lngE7" : 217330913
+        }, {
+          "latE7" : 382482223,
+          "lngE7" : 217341041
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382482606,
+        "longitudeE7" : 217340579,
+        "placeId" : "ChIJHbh32txJXhMR5u-YWAAYEvA",
+        "address" : "Αγίου Ανδρέου 48 &\nΕρμού 4\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Κατάστημα COSMOTE",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567529914397",
+        "endTimestampMs" : "1567530301414"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382480950,
+      "centerLngE7" : 217342500
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382482606,
+        "longitudeE7" : 217340579,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567530301414",
+        "endTimestampMs" : "1567531088178"
+      },
+      "distance" : 920,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 91.93347133857111
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 4.373766354823684
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.8452531591264019
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382482223,
+          "lngE7" : 217341041
+        }, {
+          "latE7" : 382474899,
+          "lngE7" : 217331924
+        }, {
+          "latE7" : 382420959,
+          "lngE7" : 217281856
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567531088178",
+        "endTimestampMs" : "1567573936759"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382405302,
+      "centerLngE7" : 217303817
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567575045914",
+        "endTimestampMs" : "1567592795697"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 382405389,
+      "centerLngE7" : 217303687
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382440521,
+        "longitudeE7" : 217325912,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567592795697",
+        "endTimestampMs" : "1567593008639"
+      },
+      "distance" : 431,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 48.192948076370506
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 34.141716617900144
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 15.610956395052966
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        }, {
+          "latE7" : 382419700,
+          "lngE7" : 217313957
+        }, {
+          "latE7" : 382441139,
+          "lngE7" : 217326698
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382440521,
+        "longitudeE7" : 217325912,
+        "placeId" : "ChIJ2zO3p95JXhMRs-DLop6aPw0",
+        "address" : "Μαιζώνος 122\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Δικαστικό Μέγαρο Πατρών",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567593008639",
+        "endTimestampMs" : "1567594757178"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382435331,
+      "centerLngE7" : 217315631
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382440521,
+        "longitudeE7" : 217325912,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382474251,
+        "longitudeE7" : 217347012,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567594757178",
+        "endTimestampMs" : "1567595095475"
+      },
+      "distance" : 417,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 88.01298227244826
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 8.014823242138604
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.674501062561706
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382441139,
+          "lngE7" : 217326698
+        }, {
+          "latE7" : 382452697,
+          "lngE7" : 217318077
+        }, {
+          "latE7" : 382474975,
+          "lngE7" : 217346076
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382474251,
+        "longitudeE7" : 217347012,
+        "placeId" : "ChIJl_Ex4NxJXhMRF-9bbx-BFj0",
+        "address" : "Riga Fereou 91\nPatra 262 21\nHellas",
+        "name" : "Riga Fereou 91",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567595095475",
+        "endTimestampMs" : "1567598876167"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382476809,
+      "centerLngE7" : 217350327
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382474251,
+        "longitudeE7" : 217347012,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382452959,
+        "longitudeE7" : 217324061,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567598876167",
+        "endTimestampMs" : "1567599862687"
+      },
+      "distance" : 1160,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 91.62171312105792
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 5.767021945392823
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.9945797918683755
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382474975,
+          "lngE7" : 217346076
+        }, {
+          "latE7" : 382456207,
+          "lngE7" : 217322597
+        }, {
+          "latE7" : 382452316,
+          "lngE7" : 217323093
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382452959,
+        "longitudeE7" : 217324061,
+        "placeId" : "ChIJLTh2EtxJXhMRKm_WafdVU3w",
+        "address" : "Φιλοποίμενος 23\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "The Black Sheep Coffee - Filopoimenos",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567599862687",
+        "endTimestampMs" : "1567612255829"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382452120,
+      "centerLngE7" : 217323374
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382452959,
+        "longitudeE7" : 217324061,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567612255829",
+        "endTimestampMs" : "1567612753694"
+      },
+      "distance" : 559,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 81.05404813977623
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 9.725346834726574
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 6.862627204520311
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382452316,
+          "lngE7" : 217323093
+        }, {
+          "latE7" : 382433471,
+          "lngE7" : 217332000
+        }, {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567612753694",
+        "endTimestampMs" : "1567623250406"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382404920,
+      "centerLngE7" : 217303674
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382404920,
+        "longitudeE7" : 217303674
+      },
+      "endLocation" : {
+        "latitudeE7" : 382404902,
+        "longitudeE7" : 217303433
+      },
+      "duration" : {
+        "startTimestampMs" : "1567623250406",
+        "endTimestampMs" : "1567625974379"
+      },
+      "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+      "activities" : [ {
+        "activityType" : "UNKNOWN_ACTIVITY_TYPE",
+        "probability" : 0.0
+      } ],
+      "simplifiedRawPath" : {
+        "points" : [ {
+          "latE7" : 382459923,
+          "lngE7" : 217355682,
+          "timestampMs" : "1567624530612",
+          "accuracyMeters" : 200
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567625974379",
+        "endTimestampMs" : "1567688076968"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382404902,
+      "centerLngE7" : 217303433
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382407188,
+        "longitudeE7" : 217299408,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382389401,
+        "longitudeE7" : 217294775,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567688076968",
+        "endTimestampMs" : "1567705944361"
+      },
+      "distance" : 1910,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 44.29844990356631
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 38.05743560006533
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 12.869467616932234
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382407112,
+          "lngE7" : 217299385
+        }, {
+          "latE7" : 382445755,
+          "lngE7" : 217335395
+        }, {
+          "latE7" : 382457771,
+          "lngE7" : 217351665
+        }, {
+          "latE7" : 382476463,
+          "lngE7" : 217375087
+        }, {
+          "latE7" : 382389183,
+          "lngE7" : 217296504
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567705944361",
+        "endTimestampMs" : "1567799545983"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 382402973,
+      "centerLngE7" : 217302149
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382445452,
+        "longitudeE7" : 217379760,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567806441793",
+        "endTimestampMs" : "1567807324046"
+      },
+      "distance" : 801,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 51.75902876750228
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 24.02655123913355
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 22.241116197191747
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382448539,
+          "lngE7" : 217383937
+        }, {
+          "latE7" : 382450447,
+          "lngE7" : 217329330
+        }, {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567807324046",
+        "endTimestampMs" : "1567867030496"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382402463,
+      "centerLngE7" : 217302009
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382397690,
+        "longitudeE7" : 217298638,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382422359,
+        "longitudeE7" : 217331299,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567867030496",
+        "endTimestampMs" : "1567867519401"
+      },
+      "distance" : 576,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.34882407284077
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.8599229704790345
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.229692494159675
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382397727,
+          "lngE7" : 217298431
+        }, {
+          "latE7" : 382399101,
+          "lngE7" : 217313861
+        }, {
+          "latE7" : 382399063,
+          "lngE7" : 217314071
+        }, {
+          "latE7" : 382406883,
+          "lngE7" : 217329483
+        }, {
+          "latE7" : 382409706,
+          "lngE7" : 217340259
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382422359,
+        "longitudeE7" : 217331299,
+        "placeId" : "ChIJfda4wt5JXhMRoFX-nR0-wq4",
+        "address" : "Καραϊσκάκη 215\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "ΣΧΟΛΗ ΟΔΗΓΩΝ ΚΑΡΑΒΑΓΓΕΛΗΣ ΓΡΗΓΟΡΙΟΣ",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567867519401",
+        "endTimestampMs" : "1567867891649"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382413775,
+      "centerLngE7" : 217350050
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382423351,
+        "longitudeE7" : 217353119,
+        "placeId" : "ChIJO80-Xd5JXhMRlyaMy0oiVyE",
+        "address" : "Δημ. Γούναρη 66\nΠάτρα 262 24\nΕλλάδα",
+        "name" : "Εστιατόριο Express",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567867891649",
+        "endTimestampMs" : "1567868621268"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382429743,
+      "centerLngE7" : 217355804
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382432130,
+        "longitudeE7" : 217356034,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382469428,
+        "longitudeE7" : 217358634,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567868621268",
+        "endTimestampMs" : "1567869467905"
+      },
+      "distance" : 504,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.23457637535297
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.9634057229457609
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.3074641573212346
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382431869,
+          "lngE7" : 217355690
+        }, {
+          "latE7" : 382438812,
+          "lngE7" : 217358779
+        }, {
+          "latE7" : 382441406,
+          "lngE7" : 217362537
+        }, {
+          "latE7" : 382456893,
+          "lngE7" : 217358322
+        }, {
+          "latE7" : 382459297,
+          "lngE7" : 217357559
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382469428,
+        "longitudeE7" : 217358634,
+        "placeId" : "ChIJ1W5FEd1JXhMRkFbiPUtwewg",
+        "address" : "Ερμού 55\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Public",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567869467905",
+        "endTimestampMs" : "1567870566553"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 382462526,
+          "longitudeE7" : 217350662,
+          "placeId" : "ChIJnV5YB91JXhMRShIdNaDdUBA",
+          "address" : "Πλ. Γεωρ. Α\nΠάτρα 262 21\nΕλλάδα",
+          "name" : "Square Of King George",
+          "sourceInfo" : {
+            "deviceTag" : -569681697
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1567869467905",
+          "endTimestampMs" : "1567870566553"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 382469364,
+        "centerLngE7" : 217357545
+      } ],
+      "centerLatE7" : 382469364,
+      "centerLngE7" : 217357545
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382477850,
+        "longitudeE7" : 217363362,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567870566553",
+        "endTimestampMs" : "1567872991400"
+      },
+      "distance" : 1082,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 89.93871540500265
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 5.912839841259902
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.1841693874531116
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382477760,
+          "lngE7" : 217363243
+        }, {
+          "latE7" : 382433471,
+          "lngE7" : 217332000
+        }, {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567872991400",
+        "endTimestampMs" : "1567954920283"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382405340,
+      "centerLngE7" : 217303841
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1567957432745",
+        "endTimestampMs" : "1568033805734"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 382401356,
+      "centerLngE7" : 217301483
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382405931,
+        "longitudeE7" : 217303969,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382469428,
+        "longitudeE7" : 217358634,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568033805734",
+        "endTimestampMs" : "1568034609025"
+      },
+      "distance" : 852,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 57.79624906706279
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 21.788691755159263
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 17.50237399607338
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382406578,
+          "lngE7" : 217304077
+        }, {
+          "latE7" : 382433471,
+          "lngE7" : 217332000
+        }, {
+          "latE7" : 382469100,
+          "lngE7" : 217358226
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382469428,
+        "longitudeE7" : 217358634,
+        "placeId" : "ChIJ1W5FEd1JXhMRkFbiPUtwewg",
+        "address" : "Ερμού 55\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Public",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568034609025",
+        "endTimestampMs" : "1568035145884"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 382476210,
+          "longitudeE7" : 217367240,
+          "placeId" : "ChIJ7yhfRt1JXhMRPkdnvSSHNA8",
+          "address" : "Αγίου Νικολάου 41\nΠάτρα 262 21\nΕλλάδα",
+          "name" : "DUST+CREAM Patra",
+          "sourceInfo" : {
+            "deviceTag" : -569681697
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1568034609025",
+          "endTimestampMs" : "1568035145884"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 382463033,
+        "centerLngE7" : 217363183
+      } ],
+      "centerLatE7" : 382463033,
+      "centerLngE7" : 217363183
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382469428,
+        "longitudeE7" : 217358634,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382858622,
+        "longitudeE7" : 217903200,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568035145884",
+        "endTimestampMs" : "1568042085659"
+      },
+      "distance" : 6474,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 59.05714991320312
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 18.007625957549802
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 11.420503280645097
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382469100,
+          "lngE7" : 217358226
+        }, {
+          "latE7" : 382561149,
+          "lngE7" : 217475929
+        }, {
+          "latE7" : 382854537,
+          "lngE7" : 217906074
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382892300,
+        "longitudeE7" : 217853690,
+        "placeId" : "ChIJC5SZMHlMXhMR8wiJH3vyoUA",
+        "address" : "Πανεπιστημιούπολη Πατρών 265 04\nΕλλάδα",
+        "name" : "University Of Patras",
+        "semanticType" : "TYPE_WORK",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568042085659",
+        "endTimestampMs" : "1568045206287"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 382856992,
+          "longitudeE7" : 217900822,
+          "placeId" : "ChIJZ0L5Fr9LXhMRcV9T6m82hbw",
+          "address" : "Πανεπιστημιούπολη Πατρών\nΠάτρα 265 04\nΕλλάδα",
+          "name" : "BEST Patras",
+          "sourceInfo" : {
+            "deviceTag" : -569681697
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1568042085659",
+          "endTimestampMs" : "1568045206287"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 382859067,
+        "centerLngE7" : 217903378
+      } ],
+      "centerLatE7" : 382859067,
+      "centerLngE7" : 217903378
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382858571,
+        "longitudeE7" : 217907586,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382430107,
+        "longitudeE7" : 217377879,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568045206287",
+        "endTimestampMs" : "1568049410553"
+      },
+      "distance" : 7416,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 68.69870193659004
+      }, {
+        "activityType" : "BOATING",
+        "probability" : 12.71810568186677
+      }, {
+        "activityType" : "IN_FERRY",
+        "probability" : 6.073837052528396
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382903366,
+          "lngE7" : 217845802
+        }, {
+          "latE7" : 382564086,
+          "lngE7" : 217471771
+        }, {
+          "latE7" : 382430496,
+          "lngE7" : 217378158
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382430107,
+        "longitudeE7" : 217377879,
+        "placeId" : "ChIJpS5vquBJXhMR8oU040lFFoU",
+        "address" : "Παλαιών Πατρών Γερμανού 18\nΠάτρα 262 25\nΕλλάδα",
+        "name" : "Prego",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568049410553",
+        "endTimestampMs" : "1568053295767"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382437360,
+      "centerLngE7" : 217382407
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382430107,
+        "longitudeE7" : 217377879,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568053295767",
+        "endTimestampMs" : "1568055312970"
+      },
+      "distance" : 1054,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 49.74556289836896
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 33.42518486163964
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 14.325488410114925
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382430496,
+          "lngE7" : 217378158
+        }, {
+          "latE7" : 382414970,
+          "lngE7" : 217325592
+        }, {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568055312970",
+        "endTimestampMs" : "1568138133673"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382402850,
+      "centerLngE7" : 217302133
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382375246,
+        "longitudeE7" : 217260558,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568138133673",
+        "endTimestampMs" : "1568138811026"
+      },
+      "distance" : 509,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 77.65022513245579
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 14.482449046576127
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 5.949795082708161
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        }, {
+          "latE7" : 382407379,
+          "lngE7" : 217296981
+        }, {
+          "latE7" : 382375679,
+          "lngE7" : 217257289
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382375246,
+        "longitudeE7" : 217260558,
+        "placeId" : "ChIJxUYCLSY2XhMRODgQWvlNfyQ",
+        "address" : "Ακτή Δυμαίων 17\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Odeon",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568138811026",
+        "endTimestampMs" : "1568148694372"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382373712,
+      "centerLngE7" : 217263929
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382375246,
+        "longitudeE7" : 217260558,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568148694372",
+        "endTimestampMs" : "1568150178532"
+      },
+      "distance" : 534,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 61.38066918362768
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 26.07337712979768
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 10.408618437667963
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382375679,
+          "lngE7" : 217257289
+        }, {
+          "latE7" : 382406806,
+          "lngE7" : 217301998
+        }, {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568150178532",
+        "endTimestampMs" : "1568271171927"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382405413,
+      "centerLngE7" : 217303661
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382892300,
+        "longitudeE7" : 217853690,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568271171927",
+        "endTimestampMs" : "1568273449685"
+      },
+      "distance" : 7332,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 89.98331962457493
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 4.996781660304303
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 3.992791272210078
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        }, {
+          "latE7" : 382561149,
+          "lngE7" : 217475929
+        }, {
+          "latE7" : 382891998,
+          "lngE7" : 217853126
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382892300,
+        "longitudeE7" : 217853690,
+        "placeId" : "ChIJC5SZMHlMXhMR8wiJH3vyoUA",
+        "address" : "Πανεπιστημιούπολη Πατρών 265 04\nΕλλάδα",
+        "name" : "University Of Patras",
+        "semanticType" : "TYPE_WORK",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568273449685",
+        "endTimestampMs" : "1568279747626"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 382848599,
+          "longitudeE7" : 217880106,
+          "placeId" : "ChIJ2bWYIb9LXhMRRivOKTwEu7Y",
+          "address" : "Πανεπιστημιούπολη Πατρών 265 04\nΕλλάδα",
+          "name" : "Department of Computer Engineering and Informatics, School of Engineering, University of Patras",
+          "sourceInfo" : {
+            "deviceTag" : -569681697
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1568273449685",
+          "endTimestampMs" : "1568279747626"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 382846432,
+        "centerLngE7" : 217877394
+      } ],
+      "centerLatE7" : 382846432,
+      "centerLngE7" : 217877394
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382852884,
+        "longitudeE7" : 217871057,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382437330,
+        "longitudeE7" : 217316116,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568279747626",
+        "endTimestampMs" : "1568282012120"
+      },
+      "distance" : 6962,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 89.88325321930438
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 8.338211498010581
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.8476749077616564
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382852554,
+          "lngE7" : 217871360
+        }, {
+          "latE7" : 382808609,
+          "lngE7" : 217674198
+        }, {
+          "latE7" : 382419395,
+          "lngE7" : 217297573
+        } ]
+      }
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382437330,
+        "longitudeE7" : 217316116,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568282012120",
+        "endTimestampMs" : "1568282431376"
+      },
+      "distance" : 411,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 39.50282683386673
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 38.467279403203605
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 17.68567088765219
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382419395,
+          "lngE7" : 217297573
+        }, {
+          "latE7" : 382411689,
+          "lngE7" : 217303295
+        }, {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568282431376",
+        "endTimestampMs" : "1568368217921"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382404906,
+      "centerLngE7" : 217303612
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568368217921",
+        "endTimestampMs" : "1568369185754"
+      },
+      "distance" : 504,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 91.14600030553726
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 5.969470863442996
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.527311690282799
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568369185754",
+        "endTimestampMs" : "1568471242691"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382404626,
+      "centerLngE7" : 217303158
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382405991,
+        "longitudeE7" : 217302829,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382427500,
+        "longitudeE7" : 217342042,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568471242691",
+        "endTimestampMs" : "1568471484901"
+      },
+      "distance" : 420,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 96.24330227425187
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 2.294394022485636
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.5958138919724065
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382406730,
+          "lngE7" : 217302970
+        }, {
+          "latE7" : 382426452,
+          "lngE7" : 217340507
+        }, {
+          "latE7" : 382427520,
+          "lngE7" : 217341976
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382427500,
+        "longitudeE7" : 217342042,
+        "placeId" : "ChIJu3rojN5JXhMRF2jtmwJYy04",
+        "address" : "Γούναρη 52 &\nΔημ. Υψηλάντου\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "My market",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568471484901",
+        "endTimestampMs" : "1568472134249"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382424179,
+      "centerLngE7" : 217338793
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382419161,
+        "longitudeE7" : 217332301,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568472134249",
+        "endTimestampMs" : "1568472376405"
+      },
+      "distance" : 320,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.12304647086353
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.7860799168062218
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.4385550942208261
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382419738,
+          "lngE7" : 217331562
+        }, {
+          "latE7" : 382414970,
+          "lngE7" : 217325592
+        }, {
+          "latE7" : 382408638,
+          "lngE7" : 217318496
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568472376405",
+        "endTimestampMs" : "1568565884813"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382406015,
+      "centerLngE7" : 217303726
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382406109,
+        "longitudeE7" : 217311027,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382419019,
+        "longitudeE7" : 217349593,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568565884813",
+        "endTimestampMs" : "1568566128246"
+      },
+      "distance" : 379,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 95.08355483097095
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 3.5323924591408944
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.5572820511860384
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382406120,
+          "lngE7" : 217311058
+        }, {
+          "latE7" : 382407836,
+          "lngE7" : 217334423
+        }, {
+          "latE7" : 382418861,
+          "lngE7" : 217349491
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382419019,
+        "longitudeE7" : 217349593,
+        "placeId" : "ChIJIUA_67pJXhMRtrADvnLsS0c",
+        "address" : "Υψηλών Αλωνίων 1\nΠάτρα 262 24\nΕλλάδα",
+        "name" : "Kouros",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568566128246",
+        "endTimestampMs" : "1568566495298"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382412240,
+      "centerLngE7" : 217349280
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382415213,
+        "longitudeE7" : 217342852,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568566495298",
+        "endTimestampMs" : "1568567538457"
+      },
+      "distance" : 1065,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 95.33239978672098
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 3.0324683595285453
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.7871999075803264
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382415390,
+          "lngE7" : 217342624
+        }, {
+          "latE7" : 382409057,
+          "lngE7" : 217333679
+        }, {
+          "latE7" : 382375984,
+          "lngE7" : 217327957
+        }, {
+          "latE7" : 382390098,
+          "lngE7" : 217296714
+        }, {
+          "latE7" : 382397613,
+          "lngE7" : 217298393
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568567538457",
+        "endTimestampMs" : "1568807731287"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382405353,
+      "centerLngE7" : 217303624
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382412064,
+        "longitudeE7" : 217352439,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568807731287",
+        "endTimestampMs" : "1568808000750"
+      },
+      "distance" : 433,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 93.77969430556767
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 4.230997793330006
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.7918491220276889
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        }, {
+          "latE7" : 382425956,
+          "lngE7" : 217346687
+        }, {
+          "latE7" : 382424812,
+          "lngE7" : 217349929
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382412064,
+        "longitudeE7" : 217352439,
+        "placeId" : "ChIJDdaatoVJXhMRghmU6R5v1ok",
+        "address" : "Πάτρα 262 24\nΕλλάδα",
+        "name" : "Ψηλά Αλώνια",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568808000750",
+        "endTimestampMs" : "1568808487883"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382416814,
+      "centerLngE7" : 217344043
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382408731,
+        "longitudeE7" : 217337104,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568808487883",
+        "endTimestampMs" : "1568808733241"
+      },
+      "distance" : 318,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.72015302902317
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.4866186724857264
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.2975597327753999
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382408943,
+          "lngE7" : 217337226
+        }, {
+          "latE7" : 382405471,
+          "lngE7" : 217320480
+        }, {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568808733241",
+        "endTimestampMs" : "1568831109496"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 382405505,
+      "centerLngE7" : 217303778
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382405563,
+        "longitudeE7" : 217313675,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382369232,
+        "longitudeE7" : 217271183,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568831109496",
+        "endTimestampMs" : "1568832310624"
+      },
+      "distance" : 1376,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 98.04536405473799
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.9614495441386791
+      }, {
+        "activityType" : "RUNNING",
+        "probability" : 0.3022442762319476
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382405586,
+          "lngE7" : 217313671
+        }, {
+          "latE7" : 382406234,
+          "lngE7" : 217322864
+        }, {
+          "latE7" : 382407722,
+          "lngE7" : 217356948
+        }, {
+          "latE7" : 382397003,
+          "lngE7" : 217352924
+        }, {
+          "latE7" : 382401847,
+          "lngE7" : 217293281
+        }, {
+          "latE7" : 382402153,
+          "lngE7" : 217289600
+        }, {
+          "latE7" : 382391662,
+          "lngE7" : 217284317
+        }, {
+          "latE7" : 382370147,
+          "lngE7" : 217271575
+        }, {
+          "latE7" : 382369194,
+          "lngE7" : 217271385
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382375246,
+        "longitudeE7" : 217260558,
+        "placeId" : "ChIJxUYCLSY2XhMRODgQWvlNfyQ",
+        "address" : "Ακτή Δυμαίων 17\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Odeon",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568832310624",
+        "endTimestampMs" : "1568845200019"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382375660,
+      "centerLngE7" : 217262787
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382367691,
+        "longitudeE7" : 217268342,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568845200019",
+        "endTimestampMs" : "1568845807824"
+      },
+      "distance" : 593,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 90.98109861344871
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 5.184292648070986
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.5710997927014723
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382366104,
+          "lngE7" : 217268753
+        }, {
+          "latE7" : 382367858,
+          "lngE7" : 217280082
+        }, {
+          "latE7" : 382376098,
+          "lngE7" : 217281475
+        }, {
+          "latE7" : 382407379,
+          "lngE7" : 217296981
+        }, {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568845807824",
+        "endTimestampMs" : "1568889534112"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 382405461,
+      "centerLngE7" : 217303584
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382411605,
+        "longitudeE7" : 217303594,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382474251,
+        "longitudeE7" : 217347012,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568889534112",
+        "endTimestampMs" : "1568890504887"
+      },
+      "distance" : 1051,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 96.74374630748763
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.9296854123175146
+      }, {
+        "activityType" : "CYCLING",
+        "probability" : 0.7895926172959397
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382411766,
+          "lngE7" : 217303390
+        }, {
+          "latE7" : 382414741,
+          "lngE7" : 217307262
+        }, {
+          "latE7" : 382429542,
+          "lngE7" : 217294254
+        }, {
+          "latE7" : 382431869,
+          "lngE7" : 217291641
+        }, {
+          "latE7" : 382453956,
+          "lngE7" : 217312374
+        }, {
+          "latE7" : 382452697,
+          "lngE7" : 217318077
+        }, {
+          "latE7" : 382474975,
+          "lngE7" : 217346076
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382474251,
+        "longitudeE7" : 217347012,
+        "placeId" : "ChIJl_Ex4NxJXhMRF-9bbx-BFj0",
+        "address" : "Riga Fereou 91\nPatra 262 21\nHellas",
+        "name" : "Riga Fereou 91",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568890504887",
+        "endTimestampMs" : "1568894845841"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382478363,
+      "centerLngE7" : 217348891
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382479288,
+        "longitudeE7" : 217345346,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382460536,
+        "longitudeE7" : 217313155,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568894845841",
+        "endTimestampMs" : "1568895145723"
+      },
+      "distance" : 381,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 93.75147691471906
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 3.4500712652764687
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.2815758036685827
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382475395,
+          "lngE7" : 217332477
+        }, {
+          "latE7" : 382461967,
+          "lngE7" : 217315979
+        }, {
+          "latE7" : 382460174,
+          "lngE7" : 217313613
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382460536,
+        "longitudeE7" : 217313155,
+        "placeId" : "ChIJF7rvi9tJXhMR7lVl5VIhbFg",
+        "address" : "Αγίου Ανδρέου 120\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Πλαίσιο Πάτρας",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568895145723",
+        "endTimestampMs" : "1568895872044"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382457470,
+      "centerLngE7" : 217309850
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382460536,
+        "longitudeE7" : 217313155,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568895872044",
+        "endTimestampMs" : "1568895993199"
+      },
+      "distance" : 665,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 80.76131166627542
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 11.136000375476081
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 5.608162259618036
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382450942,
+          "lngE7" : 217302207
+        }, {
+          "latE7" : 382431945,
+          "lngE7" : 217293052
+        }, {
+          "latE7" : 382431526,
+          "lngE7" : 217293815
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568895993199",
+        "endTimestampMs" : "1568991503338"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382403681,
+      "centerLngE7" : 217302717
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382413752,
+        "longitudeE7" : 217304901,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382473996,
+        "longitudeE7" : 217353131,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568991503338",
+        "endTimestampMs" : "1568992330869"
+      },
+      "distance" : 1114,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.72005909871292
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.3722782493940766
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.3421677409248946
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382413749,
+          "lngE7" : 217304916
+        }, {
+          "latE7" : 382420387,
+          "lngE7" : 217296257
+        }, {
+          "latE7" : 382435646,
+          "lngE7" : 217283439
+        }, {
+          "latE7" : 382457389,
+          "lngE7" : 217310237
+        }, {
+          "latE7" : 382458267,
+          "lngE7" : 217311248
+        }, {
+          "latE7" : 382467765,
+          "lngE7" : 217323360
+        }, {
+          "latE7" : 382467231,
+          "lngE7" : 217336196
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382473996,
+        "longitudeE7" : 217353131,
+        "placeId" : "ChIJCVV5F91JXhMR0VGMqtyE5Ys",
+        "address" : "Ερμού 45\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Hondos Center",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568992330869",
+        "endTimestampMs" : "1568992814215"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382474386,
+      "centerLngE7" : 217356943
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382471860,
+        "longitudeE7" : 217369025,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382469428,
+        "longitudeE7" : 217358634,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568992814215",
+        "endTimestampMs" : "1568993291018"
+      },
+      "distance" : 821,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 96.77363155522083
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 2.086352030989716
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.418675093511847
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382471733,
+          "lngE7" : 217369174
+        }, {
+          "latE7" : 382469902,
+          "lngE7" : 217373142
+        }, {
+          "latE7" : 382462043,
+          "lngE7" : 217381744
+        }, {
+          "latE7" : 382443695,
+          "lngE7" : 217357196
+        }, {
+          "latE7" : 382443695,
+          "lngE7" : 217357196
+        }, {
+          "latE7" : 382447471,
+          "lngE7" : 217344150
+        }, {
+          "latE7" : 382453994,
+          "lngE7" : 217336120
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382469428,
+        "longitudeE7" : 217358634,
+        "placeId" : "ChIJ1W5FEd1JXhMRkFbiPUtwewg",
+        "address" : "Ερμού 55\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Public",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568993291018",
+        "endTimestampMs" : "1568994566722"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 382462526,
+          "longitudeE7" : 217350662,
+          "placeId" : "ChIJnV5YB91JXhMRShIdNaDdUBA",
+          "address" : "Πλ. Γεωρ. Α\nΠάτρα 262 21\nΕλλάδα",
+          "name" : "Square Of King George",
+          "sourceInfo" : {
+            "deviceTag" : -569681697
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1568993735916",
+          "endTimestampMs" : "1568994566722"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 382466942,
+        "centerLngE7" : 217356633
+      } ],
+      "centerLatE7" : 382463300,
+      "centerLngE7" : 217352576
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382469428,
+        "longitudeE7" : 217358634,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382452959,
+        "longitudeE7" : 217324061,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568994566722",
+        "endTimestampMs" : "1568994762747"
+      },
+      "distance" : 402,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 96.36590286546377
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.9835442506540055
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.5526972731752392
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382469100,
+          "lngE7" : 217358226
+        }, {
+          "latE7" : 382453460,
+          "lngE7" : 217321815
+        }, {
+          "latE7" : 382452316,
+          "lngE7" : 217323093
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382452959,
+        "longitudeE7" : 217324061,
+        "placeId" : "ChIJLTh2EtxJXhMRKm_WafdVU3w",
+        "address" : "Φιλοποίμενος 23\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "The Black Sheep Coffee - Filopoimenos",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1568994762747",
+        "endTimestampMs" : "1569000778401"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382451770,
+      "centerLngE7" : 217323621
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382444758,
+        "longitudeE7" : 217321866,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569000778401",
+        "endTimestampMs" : "1569001487085"
+      },
+      "distance" : 497,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 95.4775728157337
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 2.8551825138614624
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.7385896689477993
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382444725,
+          "lngE7" : 217322139
+        }, {
+          "latE7" : 382419700,
+          "lngE7" : 217313957
+        }, {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569001487085",
+        "endTimestampMs" : "1569055486954"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382405352,
+      "centerLngE7" : 217303490
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382400587,
+        "longitudeE7" : 217298940,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382435349,
+        "longitudeE7" : 217326496,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569055486954",
+        "endTimestampMs" : "1569055969983"
+      },
+      "distance" : 457,
+      "activityType" : "WALKING",
+      "confidence" : "LOW",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 41.8256916650967
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 34.10951008641544
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 21.67164911602232
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382400550,
+          "lngE7" : 217299098
+        }, {
+          "latE7" : 382419700,
+          "lngE7" : 217313957
+        }, {
+          "latE7" : 382435340,
+          "lngE7" : 217326488
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382436753,
+        "longitudeE7" : 217323414,
+        "placeId" : "ChIJ3RjVYvtJXhMRUivL5qTwFwQ",
+        "address" : "Κορίνθου 288\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Speedex ( ΚΑΝΑΡΗ)",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569055969983",
+        "endTimestampMs" : "1569056452981"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382435217,
+      "centerLngE7" : 217324450
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382436753,
+        "longitudeE7" : 217323414,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569056452981",
+        "endTimestampMs" : "1569056526275"
+      },
+      "distance" : 399,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 88.79353975192863
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 7.533993380536542
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.9685475767720138
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382436561,
+          "lngE7" : 217323665
+        }, {
+          "latE7" : 382432632,
+          "lngE7" : 217318668
+        }, {
+          "latE7" : 382426376,
+          "lngE7" : 217310676
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569056526275",
+        "endTimestampMs" : "1569091961880"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 382406042,
+      "centerLngE7" : 217303812
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382415041,
+        "longitudeE7" : 217308495,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382459580,
+        "longitudeE7" : 217393798,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569091961880",
+        "endTimestampMs" : "1569092688633"
+      },
+      "distance" : 987,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.91692707439014
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.1745604980810718
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.2253212629655734
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382415390,
+          "lngE7" : 217308082
+        }, {
+          "latE7" : 382417678,
+          "lngE7" : 217311191
+        }, {
+          "latE7" : 382458534,
+          "lngE7" : 217393817
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382459580,
+        "longitudeE7" : 217393798,
+        "placeId" : "ChIJB28Vo-dJXhMRGvJkMDFm1oA",
+        "address" : "Παρθενίου 31\nΠάτρα 262 25\nΕλλάδα",
+        "name" : "ρακάδικο ο Οντάς",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569092688633",
+        "endTimestampMs" : "1569112485418"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382459019,
+      "centerLngE7" : 217392364
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382455990,
+        "longitudeE7" : 217389978,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382456628,
+        "longitudeE7" : 217356338,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569112485418",
+        "endTimestampMs" : "1569112908459"
+      },
+      "distance" : 407,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 93.46147297903468
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 4.178540237994528
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.9984850852975634
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382456321,
+          "lngE7" : 217390365
+        }, {
+          "latE7" : 382448921,
+          "lngE7" : 217389564
+        }, {
+          "latE7" : 382449607,
+          "lngE7" : 217382602
+        }, {
+          "latE7" : 382448730,
+          "lngE7" : 217372760
+        }, {
+          "latE7" : 382449989,
+          "lngE7" : 217366733
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382456628,
+        "longitudeE7" : 217356338,
+        "placeId" : "ChIJ_xn2pN1JXhMRWhEgrdMUF3U",
+        "address" : "Πλ. Γεωρ. Α 34-42\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Psētópolis",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569112908459",
+        "endTimestampMs" : "1569114923993"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382457981,
+      "centerLngE7" : 217356696
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382456628,
+        "longitudeE7" : 217356338,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569114923993",
+        "endTimestampMs" : "1569115653608"
+      },
+      "distance" : 783,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 96.90879971962171
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.7805107943571885
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.3448229560892933
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382457504,
+          "lngE7" : 217355403
+        }, {
+          "latE7" : 382421989,
+          "lngE7" : 217304744
+        }, {
+          "latE7" : 382415199,
+          "lngE7" : 217303066
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569115653608",
+        "endTimestampMs" : "1569349815109"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 382405829,
+      "centerLngE7" : 217303698
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382414744,
+        "longitudeE7" : 217307802,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382462526,
+        "longitudeE7" : 217350662,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569349815109",
+        "endTimestampMs" : "1569350431844"
+      },
+      "distance" : 721,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.22509029736543
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.6653337581107166
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.3479133546761245
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382414970,
+          "lngE7" : 217307529
+        }, {
+          "latE7" : 382417678,
+          "lngE7" : 217311191
+        }, {
+          "latE7" : 382436714,
+          "lngE7" : 217311649
+        }, {
+          "latE7" : 382440452,
+          "lngE7" : 217316551
+        }, {
+          "latE7" : 382460784,
+          "lngE7" : 217348327
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382462526,
+        "longitudeE7" : 217350662,
+        "placeId" : "ChIJnV5YB91JXhMRShIdNaDdUBA",
+        "address" : "Πλ. Γεωρ. Α\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Square Of King George",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569350431844",
+        "endTimestampMs" : "1569350932009"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382461929,
+      "centerLngE7" : 217349714
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382463057,
+        "longitudeE7" : 217344523,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382432137,
+        "longitudeE7" : 217293521,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569350932009",
+        "endTimestampMs" : "1569351416748"
+      },
+      "distance" : 595,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.00759683173463
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.6841002088916437
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.36542958470829284
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382463073,
+          "lngE7" : 217344741
+        }, {
+          "latE7" : 382443313,
+          "lngE7" : 217320327
+        }, {
+          "latE7" : 382431831,
+          "lngE7" : 217293262
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382432137,
+        "longitudeE7" : 217293521,
+        "placeId" : "ChIJ07hj6wNJXhMR9TLvUux95v0",
+        "address" : "Τριών Ναυάρχων 17\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Kook Gastro House",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569351416748",
+        "endTimestampMs" : "1569361590000"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382431601,
+      "centerLngE7" : 217293243
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382432137,
+        "longitudeE7" : 217293521,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569361590000",
+        "endTimestampMs" : "1569361711543"
+      },
+      "distance" : 326,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 92.9757236125268
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 4.864573662402386
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.4194271651809716
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382425041,
+          "lngE7" : 217302627
+        }, {
+          "latE7" : 382406806,
+          "lngE7" : 217301998
+        }, {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569361711543",
+        "endTimestampMs" : "1569427267511"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382405658,
+      "centerLngE7" : 217303789
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382413936,
+        "longitudeE7" : 217306077,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382469788,
+        "longitudeE7" : 217343731,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569427267511",
+        "endTimestampMs" : "1569427752980"
+      },
+      "distance" : 780,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 95.47650659973812
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 2.550171691083813
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.9101922852508548
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382413902,
+          "lngE7" : 217306137
+        }, {
+          "latE7" : 382430725,
+          "lngE7" : 217328453
+        }, {
+          "latE7" : 382468109,
+          "lngE7" : 217348270
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382469788,
+        "longitudeE7" : 217343731,
+        "placeId" : "ChIJX9_r_NxJXhMRdGe0VyQMI0I",
+        "address" : "Gerokostopoulou 19\nPatra 262 21\nHellas",
+        "name" : "Gerokostopoulou 19",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569427752980",
+        "endTimestampMs" : "1569432706132"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382468589,
+      "centerLngE7" : 217347169
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382459826,
+        "longitudeE7" : 217354482,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569432706132",
+        "endTimestampMs" : "1569434040546"
+      },
+      "distance" : 882,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 98.34873462528412
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 0.9128723351631483
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.25772134387034557
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382458305,
+          "lngE7" : 217356624
+        }, {
+          "latE7" : 382432365,
+          "lngE7" : 217342548
+        }, {
+          "latE7" : 382430305,
+          "lngE7" : 217339878
+        }, {
+          "latE7" : 382425918,
+          "lngE7" : 217334842
+        }, {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569434040546",
+        "endTimestampMs" : "1569483858785"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382405505,
+      "centerLngE7" : 217303909
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382405534,
+        "longitudeE7" : 217313896,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382409536,
+        "longitudeE7" : 217358644,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569483858785",
+        "endTimestampMs" : "1569484120267"
+      },
+      "distance" : 424,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 95.90766457840623
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 2.6542493782220804
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.58351595933024
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382405548,
+          "lngE7" : 217313899
+        }, {
+          "latE7" : 382408828,
+          "lngE7" : 217335433
+        }, {
+          "latE7" : 382409706,
+          "lngE7" : 217358322
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382409536,
+        "longitudeE7" : 217358644,
+        "placeId" : "ChIJ59AOJyY2XhMR8N2c37sYaTg",
+        "address" : "Πλ. Υψηλών Αλωνίων 14\nΠάτρα 262 24\nΕλλάδα",
+        "name" : "Alpha Bank",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569484120267",
+        "endTimestampMs" : "1569490271639"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382416861,
+      "centerLngE7" : 217316718
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382409536,
+        "longitudeE7" : 217358644,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569490271639",
+        "endTimestampMs" : "1569490398814"
+      },
+      "distance" : 576,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 91.65148952226586
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 5.4897071606985905
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.2174900764021923
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382409706,
+          "lngE7" : 217358322
+        }, {
+          "latE7" : 382407836,
+          "lngE7" : 217334423
+        }, {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569490398814",
+        "endTimestampMs" : "1569516374560"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 382401205,
+      "centerLngE7" : 217301438
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382394869,
+        "longitudeE7" : 217298036,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382480008,
+        "longitudeE7" : 217352509,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569516374560",
+        "endTimestampMs" : "1569517459380"
+      },
+      "distance" : 1309,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 91.07752969208335
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 4.941493887778275
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 2.120366220399086
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382394905,
+          "lngE7" : 217297763
+        }, {
+          "latE7" : 382430725,
+          "lngE7" : 217328453
+        }, {
+          "latE7" : 382496757,
+          "lngE7" : 217352886
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382480008,
+        "longitudeE7" : 217352509,
+        "placeId" : "ChIJiSUSJd1JXhMRlwZVC8BJlzo",
+        "address" : "Ρήγα Φεραίου 80\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "Swatch®",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569517459380",
+        "endTimestampMs" : "1569518148273"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382496429,
+      "centerLngE7" : 217349947
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382497890,
+        "longitudeE7" : 217351538,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569518148273",
+        "endTimestampMs" : "1569519279305"
+      },
+      "distance" : 1295,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 97.50519876999243
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.2428574651979227
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.4482444203960995
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382496795,
+          "lngE7" : 217352943
+        }, {
+          "latE7" : 382481460,
+          "lngE7" : 217339992
+        }, {
+          "latE7" : 382480354,
+          "lngE7" : 217338581
+        }, {
+          "latE7" : 382457656,
+          "lngE7" : 217324295
+        }, {
+          "latE7" : 382457427,
+          "lngE7" : 217324028
+        }, {
+          "latE7" : 382452697,
+          "lngE7" : 217318077
+        }, {
+          "latE7" : 382446479,
+          "lngE7" : 217310447
+        }, {
+          "latE7" : 382429046,
+          "lngE7" : 217314033
+        }, {
+          "latE7" : 382416915,
+          "lngE7" : 217298145
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569519279305",
+        "endTimestampMs" : "1569524659255"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382406457,
+      "centerLngE7" : 217302860
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382375678,
+        "longitudeE7" : 217259215,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569524659255",
+        "endTimestampMs" : "1569525308173"
+      },
+      "distance" : 582,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 93.36160906257093
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 4.090131003853911
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.4883638897276341
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        }, {
+          "latE7" : 382380180,
+          "lngE7" : 217291526
+        }, {
+          "latE7" : 382380981,
+          "lngE7" : 217284431
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382375678,
+        "longitudeE7" : 217259215,
+        "placeId" : "ChIJyePy1Cc2XhMREMNjshYf1to",
+        "address" : "Ακτή Δυμαίων 17\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Veso Mare",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569525308173",
+        "endTimestampMs" : "1569533870532"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 382375246,
+          "longitudeE7" : 217260558,
+          "placeId" : "ChIJxUYCLSY2XhMRODgQWvlNfyQ",
+          "address" : "Ακτή Δυμαίων 17\nΠάτρα 262 22\nΕλλάδα",
+          "name" : "Odeon",
+          "sourceInfo" : {
+            "deviceTag" : -569681697
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1569525308173",
+          "endTimestampMs" : "1569526861773"
+        },
+        "placeConfidence" : "LOW_CONFIDENCE",
+        "centerLatE7" : 382372482,
+        "centerLngE7" : 217262647
+      } ],
+      "centerLatE7" : 382376090,
+      "centerLngE7" : 217261733
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382375678,
+        "longitudeE7" : 217259215,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569533870532",
+        "endTimestampMs" : "1569534538531"
+      },
+      "distance" : 771,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 94.72712905499696
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 3.481711903772702
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.8926456304925198
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382375907,
+          "lngE7" : 217257347
+        }, {
+          "latE7" : 382366371,
+          "lngE7" : 217279872
+        }, {
+          "latE7" : 382367172,
+          "lngE7" : 217279987
+        }, {
+          "latE7" : 382375679,
+          "lngE7" : 217281417
+        }, {
+          "latE7" : 382381210,
+          "lngE7" : 217282295
+        }, {
+          "latE7" : 382406806,
+          "lngE7" : 217301998
+        }, {
+          "latE7" : 382406654,
+          "lngE7" : 217303543
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569534538531",
+        "endTimestampMs" : "1569567632150"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382406323,
+      "centerLngE7" : 217303698
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382428945,
+        "longitudeE7" : 217293715,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382496662,
+        "longitudeE7" : 217346599,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569567632150",
+        "endTimestampMs" : "1569568191947"
+      },
+      "distance" : 901,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 96.35973968923535
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 2.131811862355575
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.4559209992361729
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382429542,
+          "lngE7" : 217294273
+        }, {
+          "latE7" : 382433776,
+          "lngE7" : 217294178
+        }, {
+          "latE7" : 382441749,
+          "lngE7" : 217304630
+        }, {
+          "latE7" : 382445983,
+          "lngE7" : 217309799
+        }, {
+          "latE7" : 382454910,
+          "lngE7" : 217307205
+        }, {
+          "latE7" : 382458534,
+          "lngE7" : 217311534
+        }, {
+          "latE7" : 382464637,
+          "lngE7" : 217316665
+        }, {
+          "latE7" : 382467002,
+          "lngE7" : 217310924
+        }, {
+          "latE7" : 382498054,
+          "lngE7" : 217344894
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382496662,
+        "longitudeE7" : 217346599,
+        "placeId" : "ChIJpaqc2MJJXhMRZWTb7xDEubM",
+        "address" : "Λεωφ. Όθωνος-Αμαλίας 38\nΠάτρα 262 21\nΕλλάδα",
+        "name" : "OSE Patras",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569568191947",
+        "endTimestampMs" : "1569568790802"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 382490842,
+      "centerLngE7" : 217347142
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382483848,
+        "longitudeE7" : 217340285,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 381788474,
+        "longitudeE7" : 222340322,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569568790802",
+        "endTimestampMs" : "1569572218876"
+      },
+      "distance" : 72689,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 58.22892912255529
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 34.54522480849891
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 3.518163779661556
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382483634,
+          "lngE7" : 217339973
+        }, {
+          "latE7" : 382535934,
+          "lngE7" : 217384128
+        }, {
+          "latE7" : 382610130,
+          "lngE7" : 217389354
+        }, {
+          "latE7" : 382661209,
+          "lngE7" : 220541019
+        }, {
+          "latE7" : 381788673,
+          "lngE7" : 222340145
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 381788474,
+        "longitudeE7" : 222340322,
+        "placeId" : "ChIJoeB9CIaVXxMR7kY6zK4FOuQ",
+        "address" : "Πούντα 250 03\nΕλλάδα",
+        "name" : "PUNDA BEACH",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569572218876",
+        "endTimestampMs" : "1569572560759"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 381788000,
+      "centerLngE7" : 222344100
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 381788474,
+        "longitudeE7" : 222340322,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 380332623,
+        "longitudeE7" : 238222510,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569572560759",
+        "endTimestampMs" : "1569580100879"
+      },
+      "distance" : 176628,
+      "activityType" : "IN_TRAIN",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_TRAIN",
+        "probability" : 65.58697852018827
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 28.734181071558574
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 2.7018974153720228
+      } ]
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 380332623,
+        "longitudeE7" : 238222510,
+        "placeId" : "ChIJkaNuBhiZoRQR4xAjiaviwzg",
+        "address" : "Χαλάνδρι 152 34\nΕλλάδα",
+        "name" : "Pentelis",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569580100879",
+        "endTimestampMs" : "1569580740938"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 380335810,
+      "centerLngE7" : 238217640
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 380443331,
+        "longitudeE7" : 238652774,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 380492422,
+        "longitudeE7" : 238691202,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569591039324",
+        "endTimestampMs" : "1569591712812"
+      },
+      "distance" : 734,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 93.15206917387982
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 5.278780343280184
+      }, {
+        "activityType" : "HIKING",
+        "probability" : 0.6312810491760108
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 380443649,
+          "lngE7" : 238652839
+        }, {
+          "latE7" : 380493774,
+          "lngE7" : 238689041
+        }, {
+          "latE7" : 380493125,
+          "lngE7" : 238691596
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 380492422,
+        "longitudeE7" : 238691202,
+        "placeId" : "ChIJ-bDa6QWcoRQRFxrWdNpu2n0",
+        "address" : "Λεωφ. Ελ. Βενιζέλου\nΠεντέλη 152 36\nΕλλάδα",
+        "name" : "Pentelikon",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569591712812",
+        "endTimestampMs" : "1569592238192"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 380495992,
+      "centerLngE7" : 238688575
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 380492422,
+        "longitudeE7" : 238691202,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 380227448,
+        "longitudeE7" : 237982926,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569592238192",
+        "endTimestampMs" : "1569593648115"
+      },
+      "distance" : 7162,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 94.40514183608009
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 3.0220556596541095
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.6696253653508595
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 380493125,
+          "lngE7" : 238691596
+        }, {
+          "latE7" : 380494537,
+          "lngE7" : 238688335
+        }, {
+          "latE7" : 380228500,
+          "lngE7" : 237982120
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 380226198,
+        "longitudeE7" : 238016046,
+        "placeId" : "ChIJgdK5hfmYoRQRlz5jJ4rkG7Q",
+        "address" : "Λεωφ. Πεντέλης 4\nΧαλάνδρι 152 34\nΕλλάδα",
+        "name" : "Hondos Center",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569593648115",
+        "endTimestampMs" : "1569595790528"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 380225259,
+      "centerLngE7" : 237997783
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 380226198,
+        "longitudeE7" : 238016046,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 380215103,
+        "longitudeE7" : 238003265,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569595790528",
+        "endTimestampMs" : "1569595912382"
+      },
+      "distance" : 171,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 94.79481124160378
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 2.2494996705141723
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.3607760713830683
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 380227546,
+          "lngE7" : 238015193
+        }, {
+          "latE7" : 380224647,
+          "lngE7" : 238006916
+        }, {
+          "latE7" : 380215148,
+          "lngE7" : 238003406
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 380215103,
+        "longitudeE7" : 238003265,
+        "placeId" : "ChIJ_w9AxvmYoRQRj8A6DWo-IhM",
+        "address" : "Χαϊμαντά 20\nΧαλάνδρι 152 34\nΕλλάδα",
+        "name" : "Timberland Store Chalandri",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569595912382",
+        "endTimestampMs" : "1569597270994"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 380211942,
+      "centerLngE7" : 238011158
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 380215103,
+        "longitudeE7" : 238003265,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 380220155,
+        "longitudeE7" : 237994682,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569597270994",
+        "endTimestampMs" : "1569597392207"
+      },
+      "distance" : 110,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 94.04604041538133
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 3.237007567135423
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 1.6576251570457021
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 380215148,
+          "lngE7" : 238003406
+        }, {
+          "latE7" : 380219573,
+          "lngE7" : 237994613
+        }, {
+          "latE7" : 380219879,
+          "lngE7" : 237995014
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 380220155,
+        "longitudeE7" : 237994682,
+        "placeId" : "ChIJ9fS03fmYoRQRIZbZzDnqDc4",
+        "address" : "Ανδρέα Παπανδρέου 8\nΧαλάνδρι 152 34\nΕλλάδα",
+        "name" : "Sotiropoulou, St., - V. Makri O.E. \"Systegazomena Farmakeia\"",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569597392207",
+        "endTimestampMs" : "1569597998243"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 380227789,
+      "centerLngE7" : 237989289
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 380235189,
+        "longitudeE7" : 237992677,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 380499316,
+        "longitudeE7" : 238698836,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569597998243",
+        "endTimestampMs" : "1569600316365"
+      },
+      "distance" : 7512,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 78.37539560001976
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 12.198918909470093
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 6.87613108391277
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 380220527,
+          "lngE7" : 237974395
+        }, {
+          "latE7" : 380342369,
+          "lngE7" : 238231620
+        }, {
+          "latE7" : 380454368,
+          "lngE7" : 238410949
+        }, {
+          "latE7" : 380389404,
+          "lngE7" : 238511466
+        }, {
+          "latE7" : 380499610,
+          "lngE7" : 238699798
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 380499316,
+        "longitudeE7" : 238698836,
+        "placeId" : "ChIJzQArhgWcoRQRnUXtZmJnOoM",
+        "address" : "Βασ. Γεωργίου Β 10\nΠεντέλη 152 36\nΕλλάδα",
+        "name" : "Το Πέτρινο Του Σταμάτη",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569600316365",
+        "endTimestampMs" : "1569600679890"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 380496800,
+      "centerLngE7" : 238695325
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 380443331,
+        "longitudeE7" : 238652774,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 380497153,
+        "longitudeE7" : 237802215,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569607850538",
+        "endTimestampMs" : "1569609823902"
+      },
+      "distance" : 11749,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 98.84346991604703
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.5387620660915283
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.5048195427471629
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 380443649,
+          "lngE7" : 238652839
+        }, {
+          "latE7" : 380365600,
+          "lngE7" : 238506565
+        }, {
+          "latE7" : 380178184,
+          "lngE7" : 237962608
+        }, {
+          "latE7" : 380254020,
+          "lngE7" : 237871990
+        }, {
+          "latE7" : 380498237,
+          "lngE7" : 237802162
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 380494979,
+        "longitudeE7" : 237800177,
+        "placeId" : "ChIJezRNz7uYoRQR9wlS_W75N34",
+        "address" : "Skoufa 3\nIraklio 141 21\nHellas",
+        "name" : "Skoufa 3",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569609823902",
+        "endTimestampMs" : "1569620439609"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 380495829,
+      "centerLngE7" : 237801426
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 380496133,
+        "longitudeE7" : 237801154,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 380441392,
+        "longitudeE7" : 238650593,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569620439609",
+        "endTimestampMs" : "1569621773859"
+      },
+      "distance" : 11962,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 98.93086742604692
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.6318837819694592
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.19649651747461813
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 380494270,
+          "lngE7" : 237800922
+        }, {
+          "latE7" : 380361862,
+          "lngE7" : 237727375
+        }, {
+          "latE7" : 380354080,
+          "lngE7" : 237720031
+        }, {
+          "latE7" : 380424041,
+          "lngE7" : 237789230
+        }, {
+          "latE7" : 380439987,
+          "lngE7" : 238650321
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 380443331,
+        "longitudeE7" : 238652774,
+        "placeId" : "ChIJow1yWAecoRQRi8yYAvY8mpI",
+        "address" : "Vrilission 17\nPenteli 152 36\nHellas",
+        "name" : "Vrilission 17",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569621773859",
+        "endTimestampMs" : "1569663727759"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 380442384,
+      "centerLngE7" : 238651601
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 380443331,
+        "longitudeE7" : 238652774,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 380333286,
+        "longitudeE7" : 238346055,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569663727759",
+        "endTimestampMs" : "1569664414615"
+      },
+      "distance" : 3432,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 98.83482860968843
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.711415793232257
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.29490978076867524
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 380443649,
+          "lngE7" : 238652839
+        }, {
+          "latE7" : 380365600,
+          "lngE7" : 238506565
+        }, {
+          "latE7" : 380333251,
+          "lngE7" : 238346443
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 380336034,
+        "longitudeE7" : 238341399,
+        "placeId" : "ChIJzXzveD-ZoRQRliAI4pGoczE",
+        "address" : "Κύπρου 30\nΑθήνα 152 35\nΕλλάδα",
+        "name" : "House of Hair",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569664414615",
+        "endTimestampMs" : "1569669583395"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 380335248,
+      "centerLngE7" : 238343211
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 380329916,
+        "longitudeE7" : 238352404,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 380499494,
+        "longitudeE7" : 238695763,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569669583395",
+        "endTimestampMs" : "1569670203228"
+      },
+      "distance" : 3669,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 98.92461756919118
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.6112497952099315
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.2675578321982167
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 380329399,
+          "lngE7" : 238351802
+        }, {
+          "latE7" : 380263900,
+          "lngE7" : 238427181
+        }, {
+          "latE7" : 380499839,
+          "lngE7" : 238699665
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 380499494,
+        "longitudeE7" : 238695763,
+        "placeId" : "ChIJqQTtjQWcoRQR6DV5q6g7SzE",
+        "address" : "Βασ. Γεωργίου Β 3\nΠεντέλη 152 36\nΕλλάδα",
+        "name" : "Pharmacy Mirella Kotsogianni - Penteli",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569670203228",
+        "endTimestampMs" : "1569670566318"
+      },
+      "placeConfidence" : "LOW_CONFIDENCE",
+      "centerLatE7" : 380499850,
+      "centerLngE7" : 238696500
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 380443331,
+        "longitudeE7" : 238652774,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 380496057,
+        "longitudeE7" : 237798881,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569681955934",
+        "endTimestampMs" : "1569683376954"
+      },
+      "distance" : 11584,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 99.41991444700805
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.3220126128485205
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.18959829591987262
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 380443649,
+          "lngE7" : 238652839
+        }, {
+          "latE7" : 380365600,
+          "lngE7" : 238506565
+        }, {
+          "latE7" : 380175247,
+          "lngE7" : 237969646
+        }, {
+          "latE7" : 380254020,
+          "lngE7" : 237871990
+        }, {
+          "latE7" : 380496139,
+          "lngE7" : 237796936
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 380494979,
+        "longitudeE7" : 237800177,
+        "placeId" : "ChIJezRNz7uYoRQR9wlS_W75N34",
+        "address" : "Skoufa 3\nIraklio 141 21\nHellas",
+        "name" : "Skoufa 3",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569683376954",
+        "endTimestampMs" : "1569687998356"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 380496070,
+      "centerLngE7" : 237801235
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 380494979,
+        "longitudeE7" : 237800177,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 379709225,
+        "longitudeE7" : 237305942,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569687998356",
+        "endTimestampMs" : "1569690146312"
+      },
+      "distance" : 11305,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 98.81223557747424
+      }, {
+        "activityType" : "MOTORCYCLING",
+        "probability" : 0.5644602385731952
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.5255944251599571
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 380494308,
+          "lngE7" : 237800102
+        }, {
+          "latE7" : 380254440,
+          "lngE7" : 237894802
+        }, {
+          "latE7" : 379709777,
+          "lngE7" : 237305526
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 379709100,
+        "longitudeE7" : 237325947,
+        "placeId" : "ChIJQcwKbxa9oRQRSo3vbLUyDIM",
+        "address" : "Λεωφ. Βασιλίσσης Αμαλίας 42\nΑθήνα 105 58\nΕλλάδα",
+        "name" : "Nails R and More",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569690146312",
+        "endTimestampMs" : "1569695668072"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 379710142,
+      "centerLngE7" : 237308098
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 379708985,
+        "longitudeE7" : 237315933,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 379728857,
+        "longitudeE7" : 237373940,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569695668072",
+        "endTimestampMs" : "1569696203013"
+      },
+      "distance" : 715,
+      "activityType" : "WALKING",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 96.32178628102605
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 1.3073330988061516
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.5617728619682067
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 379708518,
+          "lngE7" : 237315540
+        }, {
+          "latE7" : 379707717,
+          "lngE7" : 237326660
+        }, {
+          "latE7" : 379709777,
+          "lngE7" : 237362079
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 379728857,
+        "longitudeE7" : 237373940,
+        "placeId" : "ChIJDSQ1vT-9oRQRnAtzDrZWPIw",
+        "address" : "Λεωφ. Βασιλίσσης Αμαλίας 1\nΑθήνα 105 57\nΕλλάδα",
+        "name" : "National Garden",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569696203013",
+        "endTimestampMs" : "1569716493753"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "childVisits" : [ {
+        "location" : {
+          "latitudeE7" : 379707416,
+          "longitudeE7" : 237374019,
+          "placeId" : "ChIJxeyFuBW9oRQRLUlfqit6kBo",
+          "address" : "Αθήνα 105 57\nΕλλάδα",
+          "name" : "Aegli Garden",
+          "sourceInfo" : {
+            "deviceTag" : -569681697
+          }
+        },
+        "duration" : {
+          "startTimestampMs" : "1569696203013",
+          "endTimestampMs" : "1569716493753"
+        },
+        "placeConfidence" : "MEDIUM_CONFIDENCE",
+        "centerLatE7" : 379707626,
+        "centerLngE7" : 237373870
+      } ],
+      "centerLatE7" : 379707626,
+      "centerLngE7" : 237373870
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 380443331,
+        "longitudeE7" : 238652774,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 379974144,
+        "longitudeE7" : 236999604,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569773750697",
+        "endTimestampMs" : "1569775676723"
+      },
+      "distance" : 16231,
+      "activityType" : "IN_PASSENGER_VEHICLE",
+      "confidence" : "HIGH",
+      "activities" : [ {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 98.04597664287942
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 0.9355898480391999
+      }, {
+        "activityType" : "IN_BUS",
+        "probability" : 0.5582875328238806
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 380443649,
+          "lngE7" : 238652839
+        }, {
+          "latE7" : 380161285,
+          "lngE7" : 237195167
+        }, {
+          "latE7" : 379975395,
+          "lngE7" : 237000656
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 379980460,
+        "longitudeE7" : 236992990,
+        "placeId" : "ChIJ1yQ2vwWfoRQRjNr1kPtdQIQ",
+        "address" : "Λεωφ. Κηφισού 100\nΑθήνα 104 43\nΕλλάδα",
+        "name" : "ΚΤΕΛ ΚΗΦΙΣΟΥ",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569775676723",
+        "endTimestampMs" : "1569779008814"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 379973983,
+      "centerLngE7" : 236999669
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 379980460,
+        "longitudeE7" : 236992990,
+        "placeId" : "ChIJ1yQ2vwWfoRQRjNr1kPtdQIQ",
+        "address" : "Λεωφ. Κηφισού 100\nΑθήνα 104 43\nΕλλάδα",
+        "name" : "ΚΤΕΛ ΚΗΦΙΣΟΥ",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382567945,
+        "longitudeE7" : 217459291,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569779008814",
+        "endTimestampMs" : "1569787004541"
+      },
+      "activityType" : "IN_BUS",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "IN_BUS",
+        "probability" : 82.3683782349653
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 11.519168465051242
+      }, {
+        "activityType" : "WALKING",
+        "probability" : 3.1591046510300127
+      } ]
+    }
+  }, {
+    "activitySegment" : {
+      "startLocation" : {
+        "latitudeE7" : 382591644,
+        "longitudeE7" : 217483646,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "endLocation" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569787004541",
+        "endTimestampMs" : "1569788616477"
+      },
+      "distance" : 2595,
+      "activityType" : "WALKING",
+      "confidence" : "MEDIUM",
+      "activities" : [ {
+        "activityType" : "WALKING",
+        "probability" : 63.65144131430297
+      }, {
+        "activityType" : "IN_TRAIN",
+        "probability" : 22.05824056246778
+      }, {
+        "activityType" : "IN_PASSENGER_VEHICLE",
+        "probability" : 6.165672995752478
+      } ],
+      "waypointPath" : {
+        "waypoints" : [ {
+          "latE7" : 382591667,
+          "lngE7" : 217483558
+        }, {
+          "latE7" : 382576599,
+          "lngE7" : 217480564
+        }, {
+          "latE7" : 382562408,
+          "lngE7" : 217449665
+        }, {
+          "latE7" : 382552146,
+          "lngE7" : 217426967
+        }, {
+          "latE7" : 382541503,
+          "lngE7" : 217386035
+        }, {
+          "latE7" : 382479629,
+          "lngE7" : 217337665
+        }, {
+          "latE7" : 382437362,
+          "lngE7" : 217298927
+        }, {
+          "latE7" : 382423400,
+          "lngE7" : 217306671
+        }, {
+          "latE7" : 382415962,
+          "lngE7" : 217296981
+        } ]
+      }
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569788670955",
+        "endTimestampMs" : "1569855827924"
+      },
+      "placeConfidence" : "HIGH_CONFIDENCE",
+      "centerLatE7" : 382405982,
+      "centerLngE7" : 217303305
+    }
+  }, {
+    "placeVisit" : {
+      "location" : {
+        "latitudeE7" : 382406006,
+        "longitudeE7" : 217303429,
+        "placeId" : "ChIJq20dv9hJXhMRF6TqWBwQgVw",
+        "address" : "Παπαφλέσσα 25\nΠάτρα 262 22\nΕλλάδα",
+        "name" : "Παπαφλέσσα 25",
+        "sourceInfo" : {
+          "deviceTag" : -569681697
+        }
+      },
+      "duration" : {
+        "startTimestampMs" : "1569858329497",
+        "endTimestampMs" : "1570012765899"
+      },
+      "placeConfidence" : "MEDIUM_CONFIDENCE",
+      "centerLatE7" : 382406166,
+      "centerLngE7" : 217303458
+    }
+  } ]
+}
