@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+  <head>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title>WEBDEV CREATIONS</title>
+    <link rel="stylesheet" type="text/css" href="super11.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div class="logout" >
+        <style>
+              .logout{
+                text-align: right;
+                      }
+        </style>
+        <a href="//localhost/WEB_APPS/user/logout.php" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-log-out"></span> Log out
+        </a>
+        <a href="//localhost/WEB_APPS/user/deleteAdmin.php" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-log-out"></span> Delete Data
+        </a>
+        <a href="//localhost/WEB_APPS/user/ExportAdmin.php" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-log-out"></span> Export Data
+        </a>
+    </div>
+
+    <div class="nav_bar">
+      <ul>
+        <li><a id = "p1">TYPE</a></li>
+        <li><a id = "p2">DAY</a></li>
+        <li><a id = "p3" >MONTH</a></li>
+        <li><a id = "p4" >HOUR</a></li>
+        <li><a id = "p5" >YEAR</a></li>
+        <li><a id = "p6" >USER</a></li>
+      </ul>
+    </div>
+
+    <div class="main_container">
+      <table class="table_close " id = "sum_activites">  </table>
+      <table class="table_close1 " id = "sum_day">  </table>
+      <table class="table_close2 " id = "sum_month">  </table>
+      <table class="table_close3 " id = "sum_hour">  </table>
+      <table class="table_close4 " id = "sum_year">  </table>
+      <table class="table_close5 " id = "login">  </table>
+      <div class="chart_box1" id="chart" ></div>
+
+    </div>
+    <div class="top2">
+    <form  id = "table_date" method="post">
+      <input type = "datetime-local" class = "Date_date" id = "start" name = "start">
+      <input type = "datetime-local" class = "Date_date2" id = "last" name ="last"><br>
+
+      <input type="checkbox" id="still"  value="STILL" onclick="stilly()">
+      <label for="vehicle1"> STILL</label><br>
+      <input type="checkbox" id="foot"  value="ON_FOOT" onclick="footy()">
+      <label for="vehicle2"> ON_FOOT</label><br>
+      <input type="checkbox" id="bicycle" value="ON_BICYCLE" onclick="bike()">
+      <label for="vehicle3"> ON_BICYCLE</label>
+      <input type="checkbox" id="walk"  value="WALKING"  onclick="walky()">
+      <label for="vehicle4"> WALKING</label>
+      <input type="checkbox" id="run"  value="RUNNING"  onclick="runy()">
+      <label for="vehicle5"> RUNNING</label>
+      <input type="checkbox" id="vehicle"  value="IN_VEHICLE"  onclick="iveh()">
+      <label for="vehicle6"> IN_VEHICLE</label>
+      <input type="checkbox" id="evehicle"  value="EXITING_VEHICLE"  onclick="eveh()">
+      <label for="vehicle6"> EXITING_VEHICLE</label>
+      <input type="checkbox" id="tilt"  value="TILTING"  onclick="tilty()">
+      <label for="vehicle7"> TILTING</label>
+      <input type="checkbox" id="all"  value="ALL"  onclick="ally()">
+      <label for="vehicle8"> ALL</label>
+      <input type="submit" class = "Date_date1" name="search" id="search" value="search">
+      <div  id="mapid" style="width:820px; height:200px;  " ></div>
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"/>
+    </form>
+  </div>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/heatmapjs@2.0.2/heatmap.js"> </script>
+    <script src="/WEB_APPS/user/heat.js"></script>
+    <script src="coordinates11.js"></script>
+    <script src="admin111.js"></script>
+
+  </body>
+</html>
