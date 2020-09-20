@@ -53,20 +53,36 @@ ul li.active a{
   font-size: 70px;
 
 }
-.uploads{
-  background: #2F4F4F;
-  position: relative;
-  width: 250px;
-  top: 20%;
-  margin: 200px 30px ;
+.logout{
+  text-align: right
+        }
 
-  padding: 1px;
-  box-sizing: border-box;
-  transform: translate(0%,-50%);
-}
 .tab1{
-  top: 50%;
-  left: 50%;
+  top: 0%;
+  left: 0%;
+}
+.map{
+  position: absolute;
+  top: 90%;
+  left: 15%;
+  /* width: 900px; */
+  height: 30%;
+  width:70%;
+  align:"center";
+}
+.chart_box{
+  position: absolute;
+   top:60%;
+   left:10%;
+   width:25%;
+   height:10%;
+}
+.chart_box1{
+  position: absolute;
+   top:60%;
+   left:60%;
+   width:25%;
+   height:10%;
 }
 .Date_date{
   background: #fff;

@@ -1,7 +1,7 @@
 <?php
  session_start();
 //strtotime("3 October 2005")
-$conn = pg_connect('host=localhost dbname=mydb port=5432 user=postgres password=12345');
+$conn = pg_connect('host=localhost dbname=mydb port=5432 user=postgres password=root');
 
 $result = pg_query($conn, "SELECT loc_activities.act_type,  COUNT(*) AS num
       from usr_locations INNER JOIN loc_activities ON loc_activities.floc_id = usr_locations.loc_id

@@ -14,7 +14,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <meta charset="utf-8">
     <title>WEBDEV CREATIONS</title>
-    <link rel="stylesheet" type="text/css" href="style11.css">
+    <link rel="stylesheet" type="text/css" href="style111.css">
 
   </head>
 
@@ -44,8 +44,8 @@
         </div>
 
         <p>
-        <input type="text" id="username" name ="username" placeholder="username*"  required>
-        <input type="password" id ="password1" name = "password1" placeholder="password*" required>
+        <input type="text" id="username" class="form-control" name ="username" placeholder="username*"  required>
+        <input type="password" id ="password1" class="form-control" name = "password1" placeholder="password*" required>
         <span id="divout1">* Τα πεδία είναι υποχρεωτικά</span>
         <p>
           <button type="submit" class="button" id = "login" name="login">Login</button>
@@ -54,11 +54,11 @@
       </div>
       </form>
     </div>
-
+<div class="container">
     <div class="popup1">
       <form id="Signup" action="checkSignUp.php" method="post" >
 
-      <div class="popup-content">
+      <div class="popup1-content">
 
         <img src="close.png" class="close1">
         <div class="user">
@@ -66,10 +66,10 @@
         </div>
 
         <label for="user">Registration</label>
-        <input type="text" id="username1" name ="username1" placeholder="username*"   title="Give a username" required>
+        <input type="text" id="username1" class="form-control" name ="username1" placeholder="username*"   title="Give a username" required>
         <span id="out"></span>
-        <input type="email" id= "email1" name = "email1" placeholder="email*" title="Give an e-mail address" required >
-        <input type="password" id= "password" name = "password" placeholder="password*"
+        <input type="email" id= "email1" class="form-control" name = "email1" placeholder="email*" title="Give an e-mail address" required >
+        <input type="password" id= "password" class="form-control" name = "password" placeholder="password*"
          pattern="(?=.*\d)(?=.*[!@#$%^&*])(?=.*[A-Z]).{8,}"
          title="Must contain at least one number, one special character, and one uppercase letter, and at least 8 or more characters" required>
          <span id="divout">* Τα πεδία είναι υποχρεωτικά</span>
@@ -80,6 +80,7 @@
       </div>
       </form>
     </div>
+  </div>
     <!-- <script src="jquery-3.2.1.min.js"></script> -->
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="login22.js" defer></script>

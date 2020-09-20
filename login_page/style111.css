@@ -109,9 +109,16 @@ ul li.active a{
   align-items: center;
   text-align: center;
 }
-
 .popup-content{
   height: 250px;
+  width: 500px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+.popup1-content{
+  height: 320px;
   width: 500px;
   background: #fff;
   padding: 20px;
