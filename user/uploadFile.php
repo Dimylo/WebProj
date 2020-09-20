@@ -91,11 +91,13 @@
     $restr = pg_fetch_all($result);
     $latitude = $latitude * 1e-7;
     $longitude = $longitude * 1e-7;
-    foreach($restr as $r) {
-      if( $latitude < $r['north'] && $latitude > $r['south'] && $longitude < $r['east'] && $longitude > $r['west']) {
-            return 0;
+    if($restr) {
+      foreach($restr as $r) {
+        if( $latitude < $r['north'] && $latitude > $r['south'] && $longitude < $r['east'] && $longitude > $r['west']) {
+              return 0;
+        }
       }
-    }
+}
     return 1;
   }
 ?>
