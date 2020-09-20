@@ -53,14 +53,6 @@
       </h1>
     </div>
 
-<!--
-    <div >
-    <form action="uploadFile.php" method="post" enctype="multipart/form-data">
-        <input type= "file" name="fileToUpload" class="uploads" id="fileToUpload">
-        <input type= "submit" value="Upload file" class="upload"name="upload" id="upload">
-        <p calss="help-block"> Only JSON files allowed</p>
-    </form>
-  </div> -->
 
     <form  id = "table_date" method="post">
 
@@ -95,10 +87,10 @@
       </tr>
       <tr>
         <td>Leaderboard</td>
-        <td id = "top_3"></td>
+        <td id = "top_3" type="date"></td>
       </tr>
       <tr>
-        <td>Ecological scor</td>
+        <td>Total scor</td>
         <td  type="number" id = "scor" ></td>
       </tr>
 
@@ -136,9 +128,9 @@
 <!-- <canvas id="pie-chart"></canvas> -->
 
 <script src="mostResults111.js"></script>
-<script src="period111.js"></script>
+<script src="period1111.js"></script>
 <script src="date_upload1.js"></script>
 <script src="scor33333.js"></script>
-<script src="coords333.js"></script>
+<script src="coords3333.js"></script>
   </body>
 </html>

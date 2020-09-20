@@ -27,13 +27,19 @@ $(document).ready(function() {
                   }
                   ecological = (ecological/sum)*100;
                   ecological =Math.round(ecological);
-                  html += "<tr>";
-                  html += "<td>" +Math.round(ecological)+ "%";
-                  document.getElementById("scor").innerHTML = html;
+                  if(ecological>0){
+                      html += "<tr>";
+                      html += "<td>" +Math.round(ecological)+ "%";
+                      document.getElementById("scor").innerHTML = html;
+                  }
+                  else{
+                      document.getElementById("scor").innerHTML = 0;
+                  }
+
 
           }
         });
-        //Past 12 months Diagram
+        //Last Month
                 $.ajax({
                       type: "POST",
                       url: 'LastMonth.php',
@@ -61,9 +67,14 @@ $(document).ready(function() {
                           }
                           ecological = (ecological/sum)*100;
                           ecological =Math.round(ecological);
-                          html += "<tr>";
-                          html += "<td>" +Math.round(ecological)+ "%";
-                          document.getElementById("lastMonth").innerHTML = html;
+                          if(ecological>0){
+                              html += "<tr>";
+                              html += "<td>" +Math.round(ecological)+ "%";
+                              document.getElementById("lastMonth").innerHTML = html;
+                          }
+                          else{
+                              document.getElementById("lastMonth").innerHTML = 0;
+                          }
 
                   }
                 });
@@ -138,43 +149,16 @@ $(document).ready(function() {
 
                       };
 
-
+                      if(data.length>0){
                       // WHERE TO SHOW THE CHART (DIV ELEMENT).
                       var chart = new google.visualization.PieChart(document.getElementById('ychart'));
 
                       // DRAW THE CHART.
-                      chart.draw(arrSales, options);
-
+                      chart.draw(arrSales, options);}
                   }
 
                 }
-          //         var scor=JSON.parse(response);
-          //         console.log(scor);
-          //         var  html ='';
-          //         var sum = 0;
-          //         let ecological=0;
-          //         var non_ecological = 0;
-          //         for (var i = 0; i < scor.length; i++) {
-          //           var type = scor[i].act_type;
-          //
-          //           if (type == "STILL" || type == "TILTING" || type == "UNKNOWN") {
-          //             sum = sum;
-          //           }else if (type == "ON_FOOT" || type == "ON_BICYCLE") {
-          //             ecological = ecological + 1;
-          //             sum = sum +1;
-          //           }else {
-          //             non_ecological = non_ecological +1;
-          //             sum = sum +1;
-          //           }
-          //
-          //         }
-          //         ecological = (ecological/sum)*100;
-          //         ecological =Math.round(ecological);
-          //         html += "<tr>";
-          //         html += "<td>" +Math.round(ecological)+ "%";
-          //         document.getElementById("lastYear").innerHTML = html;
-          //
-          // }
+
         });
 
 //Leaderboard
@@ -183,12 +167,20 @@ $(document).ready(function() {
               url: 'update_scor.php',
               success: function(response)
               {
+
+                function findPosition(list) {
+                  function isLast(element) {
+                    return element === list;
+                  }
+                  return isLast;
+                }
                 var update=JSON.parse(response);
                 console.log(update)
                 let board={};
                 let check=[];
                 let list=[];
                 var html="";
+                var name="";
                 let j=0;
                 for (let i = 0; i < update.length-1; i+=2) {
                   board[j]={name:update[i].username,scor:Math.round((update[i].rank/update[i+1].rank)*100)};
@@ -200,9 +192,8 @@ $(document).ready(function() {
                var l=0;
                //list of top 3
                while(l<3){
-                 let name=sorted[l][1].name;
-                 name=name.substr(0, 3)+"."+(name.substr(4,5).toUpperCase());
-                 console.log(name)
+                 name=sorted[l][1].name;
+                 name=(name.substr(0,1)).toUpperCase()+name.substr(1,1)+"/"+(name.substr(name.length-2,name.length-1));                 console.log(name)
                  html += "<tr>";
                  html += "<td>"+ (l+1)+":" +name+" </td>";
                  html += "<td>" +"("+sorted[l][1].scor +"%)"+"</td>"+"<br>";
@@ -213,14 +204,11 @@ $(document).ready(function() {
                }
                //whole list
                for(let i = 3; i < Math.round((update.length-1)/2); i++){
+                 name=sorted[l][1].name;
                  list.push(sorted[i][1].name);
+
                }
-               function findPosition(list) {
-                  function isLast(element) {
-                        return element === list;
-                    }
-                    return isLast;
-                }
+               console.log(name)
                 let isLast = findPosition(update[update.length-1]);
                 let index = list.findIndex(isLast);
                 index=index+1;
@@ -232,19 +220,22 @@ $(document).ready(function() {
                  document.getElementById("top_3").innerHTML = html;
                }
                else if(index==4){
+                  name=(name.substr(0,1)).toUpperCase()+name.substr(1,1)+"/"+(name.substr(name.length-2,name.length-1));
+
                    html += "<tr>";
-                   html += "<td>"+ (l+1)+":" +sorted[l][1].name +" </td>";
+                   html += "<td>"+ (l+1)+":" +name +" </td>";
                    html += "<td>" +"("+sorted[l][1].scor +"%)"+"</td>"+"<br>";
                    html += "</tr>";
 
                  document.getElementById("top_3").innerHTML = html;
                }
                else if(index>4){
+                 name=(name.substr(0,1)).toUpperCase()+name.substr(1,1)+"/"+(name.substr(name.length-2,name.length-1));
                  html += "<td> . </td>";
                  html += "</tr>";
                  html += "<br>";
                  html += "<tr>";
-                 html += "<td>"+ index+":" +sorted[index-1][1].name +" </td>";
+                 html += "<td>"+ index+":" +name +" </td>";
                  html += "<td>" +"("+sorted[index-1][1].scor +"%)"+"</td>"+"<br>";
                  html += "</tr>";
                  document.getElementById("top_3").innerHTML = html;
