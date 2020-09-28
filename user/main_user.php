@@ -39,13 +39,12 @@
         <a href="logout.php" class="btn btn-info btn-lg">
           <span class="glyphicon glyphicon-log-out"></span> Log out
         </a>
+    </div>
+    <div class="up">
         <a href="mainP.html" class="btn btn-info btn-lg">
           <span class="glyphicon glyphicon-log-out"></span> Upload File
         </a>
     </div>
-
-
-
     <div class="title">
       <h1>
         welcome @<?php print_r($_SESSION['username']); ?>
@@ -87,7 +86,7 @@
       </tr>
       <tr>
         <td>Leaderboard</td>
-        <td id = "top_3" type="date"></td>
+        <td id = "top_3"></td>
       </tr>
       <tr>
         <td>Total scor</td>
@@ -102,7 +101,7 @@
 
 
   <div class="chart_box">
-    <div  id="ychart" style="width:600px; height:200px;" ></div>
+    <div  id="ychart"></div>
   </div>
 
 
@@ -111,26 +110,16 @@
     <div class="map" id="mapid"  ></div>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"/>
 </div>
-<div class="chart_box1">
-<div id="chart" style="width:600px; height:200px;"></div>
+<div class="chart_box3">
+<div id="chart"></div>
 </div>
-<!-- <div id="linechart_material_vehicle" style="width:600px; height:200px;"></div>
-<div id="linechart_material_bike" style="width:600px; height:200px;"></div>
-<div id="linechart_material_foot" style="width:600px; height:200px;"></div> -->
 
-<!-- <td><div id="barchart_div" style="border: 1px solid #ccc"></div></td> -->
-<div id="chart_div" style="width: 900px; height: 500px;"></div>
-
-
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<!-- <canvas id="pie-chart"></canvas> -->
 
-<script src="mostResults111.js"></script>
+<script src="mostResults1111.js"></script>
 <script src="period1111.js"></script>
 <script src="date_upload1.js"></script>
-<script src="scor33333.js"></script>
+<script src="scor.js"></script>
 <script src="coords3333.js"></script>
   </body>
 </html>

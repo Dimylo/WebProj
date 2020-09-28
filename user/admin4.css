@@ -6,7 +6,7 @@
 }
 
 body{
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(roz1.jpg);
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(roz.jpg);
   height: 50vh;
   background-size: cover;
   background-position: center;
@@ -50,39 +50,38 @@ ul li.active a{
 
 .title h1{
   color: #2F4F4F;
-  font-size: 70px;
+  font-size: 30px;
 
 }
 .logout{
   text-align: right
         }
-
-.tab1{
-  top: 0%;
-  left: 0%;
+.up{
+  text-align: left;
 }
+
 .map{
   position: absolute;
-  top: 90%;
-  left: 15%;
+  top: 20%;
+  left: 75%;
   /* width: 900px; */
-  height: 30%;
-  width:70%;
+  height: 110%;
+  width:25%;
   align:"center";
 }
 .chart_box{
   position: absolute;
-   top:60%;
-   left:10%;
-   width:25%;
-   height:10%;
+   top:93%;
+   left:0%;
+   width:30%;
+   height:40%;
 }
-.chart_box1{
+.chart_box3{
   position: absolute;
-   top:60%;
-   left:60%;
-   width:25%;
-   height:10%;
+  top:93%;
+  left:40%;
+  width:30%;
+  height:40%;
 }
 .Date_date{
   background: #fff;
@@ -141,36 +140,36 @@ ul li.active a{
   background: #2F4F4F;
   position: absolute;
   top: 35%;
-  left: 40%;
+  left: 35%;
   width: 20%;
 }
 .table_hour{
   background: #2F4F4F;
   position: absolute;
   top: 35%;
-  left: 60%;
+  left: 55%;
   width: 10%;
 }
-.table_day{
+/* .table_day{
   background: #2F4F4F;
   position: absolute;
   top: 25%;
   left: 70%;
   width: 5%;
-}
+} */
 .table_day{
   background: #2F4F4F;
   position: absolute;
   top: 35%;
-  left: 70%;
+  left: 65%;
   width: 5%;
 }
 table{
 
   background: #2F4F4F;
   position: absolute;
-  top: 35%;
-  left: 2%;
+  top: 25%;
+  left: 0%;
   width: 30%;
 
 }

@@ -7,22 +7,32 @@ table, td {
   border: 1px solid black;
 }
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+body{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(roz.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
 }
 
 #mapid {
 	height: 400px;
-	width: 60%;
+	width: 50%;
   float: left;
 }
 
-#upload {
-  margin: auto;
+#up {
+  text-align: center;
+  border-radius: 15px;
+  background: grey;
+  font-size: 20px;
+  margin-top: 150px;
+  margin-right: 200px;
+  width: 20%;
+  float: right;
 }
+
 #cont {
-  padding: 0px 0 0 0;
+  padding:410px 0 0 0;
 }
 
 @media screen and (max-width: 767px) {

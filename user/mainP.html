@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="mainStyle.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"/>
 	<link rel="stylesheet" href="./src/css/leaflet-shades.css" />
@@ -12,23 +15,26 @@
   </head>
   <body>
 
-  <div id="mapid"></div>
 
+  <div id="mapid"></div>
+  <div id="up">
+    <form  action="uploadFile.php" method="post" enctype="multipart/form-data">
+      <input type= "file" name="fileToUpload" class="uploads" id="fileToUpload">
+      <input type= "submit" value="Upload file" class="upload"name="submit">
+    </form>
+  </div>
   <div id="cont">
     <input type="button" id='save' value="save">
     <p id="print"></p>
   </div>
-  <form action="uploadFile.php" method="post" enctype="multipart/form-data">
-      <input type= "file" name="fileToUpload" class="uploads" id="fileToUpload">
-      <input type= "submit" value="Upload file" class="upload"name="submit">
-  </form>
-  <a href="main_user.php" class="btn btn-info btn-lg">
-    <span class="glyphicon glyphicon-log-out"></span> Return to Main
-  </a>
+
+
+    <div>
+      <a href="main_user.php" class="btn btn-info btn-lg">
+        <span class="glyphicon glyphicon-log-out"></span> Return to Main
+      </a>
+    </div>
 </body>
 </html>
 
 <script src="mapView.js"></script>
-<script>
-
-</script>
