@@ -19,7 +19,7 @@ var cfg = {
   "useLocalExtrema": false,
   // which field name in your data represents the latitude - default "lat"
   latField: 'latitudee7',
-  lngField: 'longtitudee7',
+  lngField: 'longitudee7',
   // // // which field name in your data represents the longitude - default "lng"
   // which field name in your data represents the data value - default "value"
   valueField: 'count'
@@ -149,6 +149,31 @@ var array=[];
 
 $(document).ready(function() {
 
+  $('#export').click(function(e) {
+    e.preventDefault();
+    console.log(obj,array)
+    var date1 = new Date(document.getElementById("start").value);
+    var st = date1.getTime()*1e-3;
+    var date2 = new Date(document.getElementById("last").value);
+    var la = date2.getTime()*1e-3;
+    if(!st=='' && !la=='' && array.length > 0){
+    $.ajax({
+      type: "POST",
+      url: 'exportAdmin.php',
+      data: {'last1':la,'start1':st,'data[]':array},
+      success: function(response)
+      {
+        data=JSON.parse(response);
+        console.log(data)
+      }
+    });
+
+  }
+  else{
+    alert('You have to select dates and filters first!!');
+  }
+  });
+
   $('#search').click(function(e) {
     e.preventDefault();
     console.log(obj,array)
@@ -165,7 +190,7 @@ $(document).ready(function() {
           success: function(response)
           {
             data=JSON.parse(response);
-            console.log(data);
+            console.log(data)
             let testData = {
                 max: 8,
                 data: data
